@@ -6,21 +6,21 @@
   "p01": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p02": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p03": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
@@ -34,56 +34,56 @@
   "p05": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p06": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p07": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p08": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p09": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p10": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p11": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
   "p12": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   }
@@ -91,33 +91,33 @@
  "summary": {
   "baseline": {
    "ndcg@10": {
-    "mean": 0.11575115283900377,
-    "lo": 0.04778423067733951,
-    "hi": 0.19871489123939948,
+    "mean": 0.06267014981040091,
+    "lo": 0.01922778808720725,
+    "hi": 0.11446112160705434,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.09292583237806351,
-    "lo": 0.04284662097162097,
-    "hi": 0.1505010982494177,
+    "mean": 0.06048818792358207,
+    "lo": 0.022981082375478926,
+    "hi": 0.10488675399142532,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.18333333333333335,
-    "lo": 0.075,
-    "hi": 0.31666666666666665,
+    "mean": 0.15,
+    "lo": 0.05833333333333333,
+    "hi": 0.25833333333333336,
     "n": 12
    },
    "category_coverage": {
-    "mean": 3.0,
-    "lo": 3.0,
-    "hi": 3.0,
+    "mean": 6.0,
+    "lo": 6.0,
+    "hi": 6.0,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 5.0,
-    "lo": 5.0,
-    "hi": 5.0,
+    "mean": 4.0,
+    "lo": 4.0,
+    "hi": 4.0,
     "n": 12
    },
    "dominant_org_share": {
@@ -129,115 +129,115 @@
   },
   "current": {
    "ndcg@10": {
-    "mean": 0.5676772502514068,
-    "lo": 0.4785667089731626,
-    "hi": 0.6573195871577915,
+    "mean": 0.4985815007117124,
+    "lo": 0.40909021708162724,
+    "hi": 0.5842486292182411,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.4381978885911952,
-    "lo": 0.33474704109375875,
-    "hi": 0.5357367271799838,
+    "mean": 0.3342298105675492,
+    "lo": 0.2769317191254085,
+    "hi": 0.3798149030074409,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.6166666666666668,
-    "lo": 0.4833333333333334,
-    "hi": 0.75,
+    "mean": 0.7166666666666667,
+    "lo": 0.5914583333333332,
+    "hi": 0.8250000000000001,
     "n": 12
    },
    "category_coverage": {
-    "mean": 9.0,
-    "lo": 8.083333333333334,
-    "hi": 10.0,
+    "mean": 8.416666666666666,
+    "lo": 7.333333333333333,
+    "hi": 9.5,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 10.0,
-    "lo": 10.0,
-    "hi": 10.0,
+    "mean": 9.166666666666666,
+    "lo": 8.666666666666666,
+    "hi": 9.583333333333334,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.10000000000000002,
-    "lo": 0.10000000000000002,
-    "hi": 0.10000000000000002,
+    "mean": 0.18333333333333335,
+    "lo": 0.1416666666666667,
+    "hi": 0.2333333333333333,
     "n": 12
    }
   },
   "tfidf": {
    "ndcg@10": {
-    "mean": 0.27556618808851757,
-    "lo": 0.14120427431874627,
-    "hi": 0.41920488803634026,
+    "mean": 0.20155167687010053,
+    "lo": 0.08407232654427337,
+    "hi": 0.33633053655666223,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.16914683862624366,
-    "lo": 0.09228349715692392,
-    "hi": 0.25349032575505687,
+    "mean": 0.12624856388734318,
+    "lo": 0.06486209654912803,
+    "hi": 0.1907155388613508,
     "n": 12
    },
    "precision@10": {
     "mean": 0.3,
-    "lo": 0.16666666666666666,
-    "hi": 0.44166666666666665,
+    "lo": 0.15833333333333333,
+    "hi": 0.44999999999999996,
     "n": 12
    },
    "category_coverage": {
-    "mean": 5.583333333333333,
-    "lo": 4.333333333333333,
-    "hi": 6.75,
+    "mean": 5.666666666666667,
+    "lo": 3.75,
+    "hi": 7.583333333333333,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 6.833333333333333,
-    "lo": 5.916666666666667,
-    "hi": 7.833333333333333,
+    "mean": 3.6666666666666665,
+    "lo": 2.8333333333333335,
+    "hi": 4.666666666666667,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.3416666666666666,
-    "lo": 0.2666666666666667,
-    "hi": 0.4166666666666667,
+    "mean": 0.6583333333333333,
+    "lo": 0.5499999999999999,
+    "hi": 0.7666666666666667,
     "n": 12
    }
   },
   "embed": {
    "ndcg@10": {
-    "mean": 0.7239438417599761,
-    "lo": 0.6408526511960966,
-    "hi": 0.8105327024233657,
+    "mean": 0.6604140913910204,
+    "lo": 0.5614660455234572,
+    "hi": 0.7588464683127654,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.5405310303837191,
-    "lo": 0.44611131765540374,
-    "hi": 0.6500382190485163,
+    "mean": 0.395133987582094,
+    "lo": 0.34495239671961486,
+    "hi": 0.44712235021538077,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.775,
-    "lo": 0.6583333333333333,
-    "hi": 0.8833333333333333,
+    "mean": 0.8500000000000001,
+    "lo": 0.7333333333333334,
+    "hi": 0.9500000000000001,
     "n": 12
    },
    "category_coverage": {
-    "mean": 6.916666666666667,
-    "lo": 5.5,
-    "hi": 8.25,
+    "mean": 5.0,
+    "lo": 3.75,
+    "hi": 6.25,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 8.083333333333334,
-    "lo": 6.583333333333333,
-    "hi": 9.166666666666666,
+    "mean": 4.25,
+    "lo": 3.5,
+    "hi": 5.083333333333333,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.2666666666666667,
-    "lo": 0.16666666666666666,
-    "hi": 0.41666666666666674,
+    "mean": 0.6583333333333333,
+    "lo": 0.5583333333333332,
+    "hi": 0.7416666666666667,
     "n": 12
    }
   }
@@ -245,153 +245,153 @@
  "grouped_recurring_events": {
   "baseline": {
    "ndcg@10": {
-    "mean": 0.11921109920189182,
-    "lo": 0.04986866496809862,
-    "hi": 0.2019245775336128,
+    "mean": 0.07395633951338433,
+    "lo": 0.022587140675552578,
+    "hi": 0.1424206125970738,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.11335958717924662,
-    "lo": 0.0514569379118044,
-    "hi": 0.1858224368295962,
+    "mean": 0.09458522582807478,
+    "lo": 0.029988737128146453,
+    "hi": 0.17058769546147964,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.18333333333333335,
-    "lo": 0.075,
-    "hi": 0.31666666666666665,
+    "mean": 0.15833333333333333,
+    "lo": 0.05833333333333333,
+    "hi": 0.2833333333333333,
     "n": 12
    },
    "category_coverage": {
-    "mean": 3.0,
-    "lo": 3.0,
-    "hi": 3.0,
+    "mean": 6.0,
+    "lo": 6.0,
+    "hi": 6.0,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 5.0,
-    "lo": 5.0,
-    "hi": 5.0,
+    "mean": 4.0,
+    "lo": 4.0,
+    "hi": 4.0,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.5,
-    "lo": 0.5,
-    "hi": 0.5,
+    "mean": 0.4000000000000001,
+    "lo": 0.4000000000000001,
+    "hi": 0.4000000000000001,
     "n": 12
    }
   },
   "current": {
    "ndcg@10": {
-    "mean": 0.5777232027834639,
-    "lo": 0.4918815108600975,
-    "hi": 0.666105812110666,
+    "mean": 0.5567312188711081,
+    "lo": 0.45498390481006656,
+    "hi": 0.652567525768935,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.4679844847704755,
-    "lo": 0.37031481273499456,
-    "hi": 0.5612275484931735,
+    "mean": 0.46388737200379077,
+    "lo": 0.3853147915799875,
+    "hi": 0.5327636346300533,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.6166666666666668,
-    "lo": 0.4833333333333334,
-    "hi": 0.75,
+    "mean": 0.6833333333333332,
+    "lo": 0.5416666666666667,
+    "hi": 0.7999999999999999,
     "n": 12
    },
    "category_coverage": {
-    "mean": 8.833333333333334,
-    "lo": 7.833333333333333,
-    "hi": 9.916666666666666,
+    "mean": 8.75,
+    "lo": 7.666666666666667,
+    "hi": 9.833333333333334,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 10.0,
-    "lo": 10.0,
-    "hi": 10.0,
+    "mean": 9.5,
+    "lo": 9.25,
+    "hi": 9.75,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.10000000000000002,
-    "lo": 0.10000000000000002,
-    "hi": 0.10000000000000002,
+    "mean": 0.15000000000000005,
+    "lo": 0.12500000000000003,
+    "hi": 0.17500000000000002,
     "n": 12
    }
   },
   "tfidf": {
    "ndcg@10": {
-    "mean": 0.284691043800377,
-    "lo": 0.1468571039659294,
-    "hi": 0.426613323275724,
+    "mean": 0.20872816176792128,
+    "lo": 0.09531065260766913,
+    "hi": 0.3338933090891618,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.19101685315888103,
-    "lo": 0.10807137033288348,
-    "hi": 0.27825734365715976,
+    "mean": 0.1547817274576428,
+    "lo": 0.08807299612255276,
+    "hi": 0.21729253526396683,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.3,
-    "lo": 0.16666666666666666,
-    "hi": 0.43333333333333335,
+    "mean": 0.275,
+    "lo": 0.15,
+    "hi": 0.4000000000000001,
     "n": 12
    },
    "category_coverage": {
-    "mean": 5.583333333333333,
-    "lo": 4.333333333333333,
-    "hi": 6.75,
+    "mean": 5.416666666666667,
+    "lo": 3.8333333333333335,
+    "hi": 6.835416666666655,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 6.833333333333333,
-    "lo": 5.916666666666667,
-    "hi": 7.833333333333333,
+    "mean": 4.333333333333333,
+    "lo": 3.1666666666666665,
+    "hi": 5.666666666666667,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.3416666666666666,
-    "lo": 0.2666666666666667,
-    "hi": 0.4166666666666667,
+    "mean": 0.5416666666666667,
+    "lo": 0.38333333333333347,
+    "hi": 0.7000000000000001,
     "n": 12
    }
   },
   "embed": {
    "ndcg@10": {
-    "mean": 0.7229995280476565,
-    "lo": 0.6559915202300461,
-    "hi": 0.7901748744622729,
+    "mean": 0.642691123870629,
+    "lo": 0.5748470486384172,
+    "hi": 0.707007527791182,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.5661204239087365,
-    "lo": 0.47726732195071014,
-    "hi": 0.6697369656594696,
+    "mean": 0.5022596428488876,
+    "lo": 0.4028974589801249,
+    "hi": 0.616041250039212,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.7333333333333334,
-    "lo": 0.625,
-    "hi": 0.8333333333333334,
+    "mean": 0.7083333333333334,
+    "lo": 0.5916666666666667,
+    "hi": 0.8250000000000001,
     "n": 12
    },
    "category_coverage": {
-    "mean": 6.833333333333333,
-    "lo": 5.333333333333333,
-    "hi": 8.333333333333334,
+    "mean": 5.0,
+    "lo": 3.8333333333333335,
+    "hi": 6.166666666666667,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 8.083333333333334,
-    "lo": 6.5,
-    "hi": 9.25,
+    "mean": 4.666666666666667,
+    "lo": 3.6666666666666665,
+    "hi": 5.666666666666667,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.2666666666666667,
-    "lo": 0.15833333333333335,
-    "hi": 0.42500000000000004,
+    "mean": 0.6250000000000001,
+    "lo": 0.5166666666666667,
+    "hi": 0.7250000000000001,
     "n": 12
    }
   }
@@ -401,7 +401,7 @@
   "tfidf_config": {
    "ngram": [
     1,
-    1
+    2
    ],
    "min_df": 1
   },
@@ -409,27 +409,27 @@
   "summary": {
    "baseline": {
     "ndcg@10": {
-     "mean": 0.23857534969869276,
-     "lo": 0.10835343712529209,
-     "hi": 0.3724586019385876,
+     "mean": 0.15609455892858748,
+     "lo": 0.0457282304933885,
+     "hi": 0.2830665459798894,
      "n": 12
     },
     "recall@10": {
-     "mean": 0.2477751090689687,
-     "lo": 0.11198003689780006,
-     "hi": 0.4092140072403229,
+     "mean": 0.14057188046158633,
+     "lo": 0.04507604323780794,
+     "hi": 0.24973507565419314,
      "n": 12
     },
     "precision@10": {
-     "mean": 0.2833333333333334,
-     "lo": 0.10833333333333334,
-     "hi": 0.47520833333333223,
+     "mean": 0.15833333333333335,
+     "lo": 0.05833333333333333,
+     "hi": 0.275,
      "n": 12
     },
     "category_coverage": {
-     "mean": 4.0,
-     "lo": 4.0,
-     "hi": 4.0,
+     "mean": 11.0,
+     "lo": 11.0,
+     "hi": 11.0,
      "n": 12
     },
     "organizer_coverage": {
@@ -447,115 +447,115 @@
    },
    "current": {
     "ndcg@10": {
-     "mean": 0.43487889320207224,
-     "lo": 0.31867577405824116,
-     "hi": 0.5650148893949365,
+     "mean": 0.4140615830889441,
+     "lo": 0.3118141378100388,
+     "hi": 0.5088800270945291,
      "n": 12
     },
     "recall@10": {
-     "mean": 0.4818725053374176,
-     "lo": 0.3561877059547015,
-     "hi": 0.610011835143414,
+     "mean": 0.37810052828435176,
+     "lo": 0.3132777083006863,
+     "hi": 0.44307028551513833,
      "n": 12
     },
     "precision@10": {
-     "mean": 0.39166666666666666,
-     "lo": 0.2916666666666667,
-     "hi": 0.48333333333333334,
+     "mean": 0.4750000000000001,
+     "lo": 0.36666666666666664,
+     "hi": 0.5833333333333334,
      "n": 12
     },
     "category_coverage": {
-     "mean": 10.333333333333334,
-     "lo": 9.08125,
-     "hi": 11.416666666666666,
+     "mean": 11.666666666666666,
+     "lo": 10.25,
+     "hi": 13.0,
      "n": 12
     },
     "organizer_coverage": {
-     "mean": 8.833333333333334,
-     "lo": 8.083333333333334,
-     "hi": 9.5,
+     "mean": 8.75,
+     "lo": 8.0,
+     "hi": 9.416666666666666,
      "n": 12
     },
     "dominant_org_share": {
-     "mean": 0.15833333333333335,
-     "lo": 0.13333333333333333,
-     "hi": 0.18333333333333335,
+     "mean": 0.19166666666666668,
+     "lo": 0.1416666666666667,
+     "hi": 0.24166666666666667,
      "n": 12
     }
    },
    "tfidf": {
     "ndcg@10": {
-     "mean": 0.4392761551006202,
-     "lo": 0.288584993441915,
-     "hi": 0.5796142894170426,
+     "mean": 0.43285454140798096,
+     "lo": 0.3134884931102877,
+     "hi": 0.5463311643816862,
      "n": 12
     },
     "recall@10": {
-     "mean": 0.3992411584516848,
-     "lo": 0.2691138871484266,
-     "hi": 0.5330052561960454,
+     "mean": 0.3231650498194616,
+     "lo": 0.2585507867676985,
+     "hi": 0.39399916311221445,
      "n": 12
     },
     "precision@10": {
-     "mean": 0.4083333333333334,
-     "lo": 0.25,
-     "hi": 0.5833333333333333,
+     "mean": 0.425,
+     "lo": 0.3000000000000001,
+     "hi": 0.5583333333333333,
      "n": 12
     },
     "category_coverage": {
-     "mean": 5.833333333333333,
-     "lo": 4.166666666666667,
-     "hi": 7.5,
+     "mean": 8.5,
+     "lo": 6.833333333333333,
+     "hi": 9.916666666666666,
      "n": 12
     },
     "organizer_coverage": {
-     "mean": 5.083333333333333,
-     "lo": 3.8333333333333335,
-     "hi": 6.5,
+     "mean": 3.8333333333333335,
+     "lo": 3.25,
+     "hi": 4.416666666666667,
      "n": 12
     },
     "dominant_org_share": {
-     "mean": 0.5833333333333333,
-     "lo": 0.44166666666666665,
-     "hi": 0.7083333333333334,
+     "mean": 0.6666666666666666,
+     "lo": 0.5916666666666666,
+     "hi": 0.7416666666666667,
      "n": 12
     }
    },
    "embed": {
     "ndcg@10": {
-     "mean": 0.6445035302131333,
-     "lo": 0.4567017059543173,
-     "hi": 0.8187028416583115,
+     "mean": 0.7253136402704046,
+     "lo": 0.6126790643849233,
+     "hi": 0.8337268616235161,
      "n": 12
     },
     "recall@10": {
-     "mean": 0.5632280933816022,
-     "lo": 0.39659891917293233,
-     "hi": 0.7172067901234568,
+     "mean": 0.5834037558302264,
+     "lo": 0.5068781558855088,
+     "hi": 0.6728999105469694,
      "n": 12
     },
     "precision@10": {
-     "mean": 0.55,
-     "lo": 0.35833333333333334,
-     "hi": 0.7335416666666655,
+     "mean": 0.725,
+     "lo": 0.5833333333333334,
+     "hi": 0.8583333333333333,
      "n": 12
     },
     "category_coverage": {
-     "mean": 7.166666666666667,
-     "lo": 5.416666666666667,
-     "hi": 8.666666666666666,
+     "mean": 5.666666666666667,
+     "lo": 4.166666666666667,
+     "hi": 7.083333333333333,
      "n": 12
     },
     "organizer_coverage": {
-     "mean": 6.75,
-     "lo": 4.833333333333333,
-     "hi": 8.416666666666666,
+     "mean": 4.083333333333333,
+     "lo": 3.1666666666666665,
+     "hi": 5.0,
      "n": 12
     },
     "dominant_org_share": {
-     "mean": 0.37500000000000006,
-     "lo": 0.22500000000000006,
-     "hi": 0.5583333333333333,
+     "mean": 0.6416666666666667,
+     "lo": 0.5333333333333334,
+     "hi": 0.7416666666666668,
      "n": 12
     }
    }
@@ -565,417 +565,417 @@
   "per_profile": {
    "baseline": {
     "p01": {
-     "ndcg@10": 0.0771862042303474,
-     "recall@10": 0.18181818181818182,
-     "precision@10": 0.2,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.09106882605178927,
+     "recall@10": 0.12,
+     "precision@10": 0.3,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p02": {
-     "ndcg@10": 0.08966284300766812,
-     "recall@10": 0.07692307692307693,
-     "precision@10": 0.1,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.0,
+     "recall@10": 0.0,
+     "precision@10": 0.0,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p03": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p04": {
-     "ndcg@10": 0.25172126542037015,
-     "recall@10": 0.2608695652173913,
+     "ndcg@10": 0.2322098389028426,
+     "recall@10": 0.20689655172413793,
      "precision@10": 0.6,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p05": {
-     "ndcg@10": 0.024454640699786683,
-     "recall@10": 0.047619047619047616,
+     "ndcg@10": 0.031596121456516926,
+     "recall@10": 0.041666666666666664,
      "precision@10": 0.1,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p06": {
-     "ndcg@10": 0.22210512047622732,
-     "recall@10": 0.2631578947368421,
-     "precision@10": 0.5,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.10441043659762086,
+     "recall@10": 0.15789473684210525,
+     "precision@10": 0.3,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p07": {
-     "ndcg@10": 0.3103414471745059,
-     "recall@10": 0.0625,
-     "precision@10": 0.1,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.0,
+     "recall@10": 0.0,
+     "precision@10": 0.0,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p08": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p09": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p10": {
-     "ndcg@10": 0.02533755041595164,
-     "recall@10": 0.05555555555555555,
-     "precision@10": 0.1,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.052835679913660345,
+     "recall@10": 0.06896551724137931,
+     "precision@10": 0.2,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p11": {
-     "ndcg@10": 0.3882047626431879,
-     "recall@10": 0.16666666666666666,
-     "precision@10": 0.5,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.23992089480238082,
+     "recall@10": 0.13043478260869565,
+     "precision@10": 0.3,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p12": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     }
    },
    "current": {
     "p01": {
-     "ndcg@10": 0.6052054167864388,
-     "recall@10": 0.6363636363636364,
+     "ndcg@10": 0.5307354168925985,
+     "recall@10": 0.28,
      "precision@10": 0.7,
-     "category_coverage": 7,
+     "category_coverage": 8,
      "organizer_coverage": 10,
      "dominant_org_share": 0.1
     },
     "p02": {
-     "ndcg@10": 0.8593109066488188,
-     "recall@10": 0.6923076923076923,
+     "ndcg@10": 0.793765255507228,
+     "recall@10": 0.42857142857142855,
      "precision@10": 0.9,
+     "category_coverage": 6,
+     "organizer_coverage": 8,
+     "dominant_org_share": 0.3
+    },
+    "p03": {
+     "ndcg@10": 0.6033941533392788,
+     "recall@10": 0.43478260869565216,
+     "precision@10": 1.0,
+     "category_coverage": 7,
+     "organizer_coverage": 9,
+     "dominant_org_share": 0.2
+    },
+    "p04": {
+     "ndcg@10": 0.47592764694091244,
+     "recall@10": 0.2413793103448276,
+     "precision@10": 0.7,
+     "category_coverage": 10,
+     "organizer_coverage": 8,
+     "dominant_org_share": 0.3
+    },
+    "p05": {
+     "ndcg@10": 0.5084359150974314,
+     "recall@10": 0.375,
+     "precision@10": 0.9,
+     "category_coverage": 10,
+     "organizer_coverage": 10,
+     "dominant_org_share": 0.1
+    },
+    "p06": {
+     "ndcg@10": 0.4590413561029862,
+     "recall@10": 0.3157894736842105,
+     "precision@10": 0.6,
+     "category_coverage": 11,
+     "organizer_coverage": 9,
+     "dominant_org_share": 0.2
+    },
+    "p07": {
+     "ndcg@10": 0.3645454728745566,
+     "recall@10": 0.3181818181818182,
+     "precision@10": 0.7,
+     "category_coverage": 10,
+     "organizer_coverage": 9,
+     "dominant_org_share": 0.2
+    },
+    "p08": {
+     "ndcg@10": 0.47329370740700594,
+     "recall@10": 0.3888888888888889,
+     "precision@10": 0.7,
      "category_coverage": 6,
      "organizer_coverage": 10,
      "dominant_org_share": 0.1
     },
-    "p03": {
-     "ndcg@10": 0.6712946642254478,
-     "recall@10": 0.5625,
-     "precision@10": 0.9,
-     "category_coverage": 9,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
-    },
-    "p04": {
-     "ndcg@10": 0.3262475965071405,
-     "recall@10": 0.21739130434782608,
-     "precision@10": 0.5,
-     "category_coverage": 10,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
-    },
-    "p05": {
-     "ndcg@10": 0.47625245962036455,
-     "recall@10": 0.38095238095238093,
-     "precision@10": 0.8,
-     "category_coverage": 11,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
-    },
-    "p06": {
-     "ndcg@10": 0.5514717156224304,
-     "recall@10": 0.21052631578947367,
-     "precision@10": 0.4,
-     "category_coverage": 10,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
-    },
-    "p07": {
-     "ndcg@10": 0.7239435211347387,
-     "recall@10": 0.375,
-     "precision@10": 0.6,
-     "category_coverage": 13,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
-    },
-    "p08": {
-     "ndcg@10": 0.5007081419669088,
-     "recall@10": 0.5,
-     "precision@10": 0.5,
-     "category_coverage": 8,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
-    },
     "p09": {
-     "ndcg@10": 0.7170533846952881,
-     "recall@10": 0.5,
-     "precision@10": 0.2,
-     "category_coverage": 8,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.6489315753318465,
+     "recall@10": 0.38461538461538464,
+     "precision@10": 0.5,
+     "category_coverage": 5,
+     "organizer_coverage": 8,
+     "dominant_org_share": 0.3
     },
     "p10": {
-     "ndcg@10": 0.616318580647038,
-     "recall@10": 0.5,
-     "precision@10": 0.9,
+     "ndcg@10": 0.636319580850595,
+     "recall@10": 0.3448275862068966,
+     "precision@10": 1.0,
      "category_coverage": 8,
      "organizer_coverage": 10,
      "dominant_org_share": 0.1
     },
     "p11": {
-     "ndcg@10": 0.2696797349116044,
-     "recall@10": 0.1,
-     "precision@10": 0.3,
-     "category_coverage": 9,
+     "ndcg@10": 0.16499520019977965,
+     "recall@10": 0.08695652173913043,
+     "precision@10": 0.2,
+     "category_coverage": 10,
      "organizer_coverage": 10,
      "dominant_org_share": 0.1
     },
     "p12": {
-     "ndcg@10": 0.494640880250662,
-     "recall@10": 0.5833333333333334,
+     "ndcg@10": 0.3235927279963299,
+     "recall@10": 0.4117647058823529,
      "precision@10": 0.7,
-     "category_coverage": 9,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "category_coverage": 10,
+     "organizer_coverage": 9,
+     "dominant_org_share": 0.2
     }
    },
    "tfidf": {
     "p01": {
-     "ndcg@10": 0.3750245817627735,
-     "recall@10": 0.45454545454545453,
-     "precision@10": 0.5,
-     "category_coverage": 5,
-     "organizer_coverage": 7,
-     "dominant_org_share": 0.3
+     "ndcg@10": 0.2603508187104145,
+     "recall@10": 0.24,
+     "precision@10": 0.6,
+     "category_coverage": 1,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.9
     },
     "p02": {
-     "ndcg@10": 0.16918058703364858,
-     "recall@10": 0.15384615384615385,
-     "precision@10": 0.2,
-     "category_coverage": 8,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.17296912047768595,
+     "recall@10": 0.14285714285714285,
+     "precision@10": 0.3,
+     "category_coverage": 4,
+     "organizer_coverage": 6,
+     "dominant_org_share": 0.5
     },
     "p03": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p04": {
-     "ndcg@10": 0.41528076708874123,
-     "recall@10": 0.13043478260869565,
-     "precision@10": 0.3,
-     "category_coverage": 5,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.49873721518608854,
+     "recall@10": 0.20689655172413793,
+     "precision@10": 0.6,
+     "category_coverage": 1,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.9
     },
     "p05": {
-     "ndcg@10": 0.7885497208855956,
-     "recall@10": 0.3333333333333333,
+     "ndcg@10": 0.7909506325094736,
+     "recall@10": 0.2916666666666667,
      "precision@10": 0.7,
-     "category_coverage": 9,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
-    },
-    "p06": {
-     "ndcg@10": 0.2655906087744748,
-     "recall@10": 0.2631578947368421,
-     "precision@10": 0.5,
-     "category_coverage": 7,
+     "category_coverage": 8,
      "organizer_coverage": 6,
      "dominant_org_share": 0.4
     },
+    "p06": {
+     "ndcg@10": 0.19915719717590052,
+     "recall@10": 0.3157894736842105,
+     "precision@10": 0.6,
+     "category_coverage": 12,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.9
+    },
     "p07": {
-     "ndcg@10": 0.3025382542171233,
-     "recall@10": 0.25,
-     "precision@10": 0.4,
-     "category_coverage": 7,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.1480139889705251,
+     "recall@10": 0.13636363636363635,
+     "precision@10": 0.3,
+     "category_coverage": 5,
+     "organizer_coverage": 6,
+     "dominant_org_share": 0.5
     },
     "p08": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p09": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     },
     "p10": {
-     "ndcg@10": 0.6167397182818851,
-     "recall@10": 0.2777777777777778,
-     "precision@10": 0.5,
-     "category_coverage": 7,
-     "organizer_coverage": 7,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.3263564082596556,
+     "recall@10": 0.13793103448275862,
+     "precision@10": 0.4,
+     "category_coverage": 1,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.9
     },
     "p11": {
-     "ndcg@10": 0.3738900190179682,
-     "recall@10": 0.16666666666666666,
-     "precision@10": 0.5,
-     "category_coverage": 7,
-     "organizer_coverage": 6,
-     "dominant_org_share": 0.4
+     "ndcg@10": 0.022084741151463014,
+     "recall@10": 0.043478260869565216,
+     "precision@10": 0.1,
+     "category_coverage": 12,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.9
     },
     "p12": {
      "ndcg@10": 0.0,
      "recall@10": 0.0,
      "precision@10": 0.0,
-     "category_coverage": 3,
-     "organizer_coverage": 5,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
      "dominant_org_share": 0.5
     }
    },
    "embed": {
     "p01": {
-     "ndcg@10": 0.9208180747990526,
-     "recall@10": 0.7272727272727273,
-     "precision@10": 0.8,
-     "category_coverage": 11,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.6762564627423069,
+     "recall@10": 0.4,
+     "precision@10": 1.0,
+     "category_coverage": 6,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p02": {
-     "ndcg@10": 0.6606157239308172,
-     "recall@10": 0.5384615384615384,
+     "ndcg@10": 0.5664039561501183,
+     "recall@10": 0.3333333333333333,
      "precision@10": 0.7,
-     "category_coverage": 5,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "category_coverage": 4,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p03": {
-     "ndcg@10": 0.7180534668874055,
-     "recall@10": 0.5,
-     "precision@10": 0.8,
+     "ndcg@10": 0.711856303956003,
+     "recall@10": 0.43478260869565216,
+     "precision@10": 1.0,
      "category_coverage": 8,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "organizer_coverage": 6,
+     "dominant_org_share": 0.4
     },
     "p04": {
-     "ndcg@10": 0.5591386271356223,
-     "recall@10": 0.391304347826087,
-     "precision@10": 0.9,
-     "category_coverage": 9,
-     "organizer_coverage": 8,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.7983672575933725,
+     "recall@10": 0.3448275862068966,
+     "precision@10": 1.0,
+     "category_coverage": 7,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p05": {
-     "ndcg@10": 0.8209647180733193,
-     "recall@10": 0.47619047619047616,
+     "ndcg@10": 0.7887225384603442,
+     "recall@10": 0.4166666666666667,
      "precision@10": 1.0,
      "category_coverage": 9,
      "organizer_coverage": 7,
      "dominant_org_share": 0.3
     },
     "p06": {
-     "ndcg@10": 0.6579223189048581,
-     "recall@10": 0.3684210526315789,
-     "precision@10": 0.7,
+     "ndcg@10": 0.4110432826562415,
+     "recall@10": 0.21052631578947367,
+     "precision@10": 0.4,
      "category_coverage": 6,
-     "organizer_coverage": 7,
-     "dominant_org_share": 0.4
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p07": {
-     "ndcg@10": 0.8842339872383048,
-     "recall@10": 0.5625,
+     "ndcg@10": 0.8141118248653179,
+     "recall@10": 0.4090909090909091,
      "precision@10": 0.9,
-     "category_coverage": 6,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "category_coverage": 3,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     },
     "p08": {
-     "ndcg@10": 0.6984484946048538,
-     "recall@10": 0.7,
-     "precision@10": 0.7,
-     "category_coverage": 5,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.5631580034820141,
+     "recall@10": 0.4444444444444444,
+     "precision@10": 0.8,
+     "category_coverage": 4,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     },
     "p09": {
-     "ndcg@10": 0.7068938200740759,
-     "recall@10": 1.0,
-     "precision@10": 0.4,
-     "category_coverage": 7,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.6947651160602988,
+     "recall@10": 0.6153846153846154,
+     "precision@10": 0.8,
+     "category_coverage": 3,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p10": {
-     "ndcg@10": 0.572804822836496,
-     "recall@10": 0.5555555555555556,
+     "ndcg@10": 0.33333333333333337,
+     "recall@10": 0.3448275862068966,
      "precision@10": 1.0,
-     "category_coverage": 8,
-     "organizer_coverage": 8,
-     "dominant_org_share": 0.2
+     "category_coverage": 5,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p11": {
      "ndcg@10": 1.0,
-     "recall@10": 0.3333333333333333,
+     "recall@10": 0.43478260869565216,
      "precision@10": 1.0,
      "category_coverage": 1,
-     "organizer_coverage": 1,
-     "dominant_org_share": 1.0
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.9
     },
     "p12": {
-     "ndcg@10": 0.4874320466349063,
-     "recall@10": 0.3333333333333333,
-     "precision@10": 0.4,
-     "category_coverage": 8,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.5669510173928947,
+     "recall@10": 0.35294117647058826,
+     "precision@10": 0.6,
+     "category_coverage": 4,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     }
    }
   },
   "per_topic": {
    "baseline": {
     "academic": {
-     "mean_ndcg@10": 0.28734371617992843,
+     "mean_ndcg@10": 0.1921803901009481,
      "n_profiles": 3
     },
     "arts": {
-     "mean_ndcg@10": 0.029887614335889375,
+     "mean_ndcg@10": 0.0,
      "n_profiles": 3
     },
     "career": {
-     "mean_ndcg@10": 0.1180816733555564,
+     "mean_ndcg@10": 0.12537144828943073,
      "n_profiles": 3
     },
     "community": {
-     "mean_ndcg@10": 0.1673980439371463,
+     "mean_ndcg@10": 0.015798060728258463,
      "n_profiles": 2
     },
     "culture": {
-     "mean_ndcg@10": 0.20000214509108702,
+     "mean_ndcg@10": 0.0,
      "n_profiles": 2
     },
     "sports": {
@@ -983,67 +983,67 @@
      "n_profiles": 2
     },
     "technology": {
-     "mean_ndcg@10": 0.09976377490219157,
+     "mean_ndcg@10": 0.06515975421647004,
      "n_profiles": 3
     },
     "wellness": {
-     "mean_ndcg@10": 0.01659739703857944,
+     "mean_ndcg@10": 0.028143933790059094,
      "n_profiles": 3
     }
    },
    "current": {
     "academic": {
-     "mean_ndcg@10": 0.38246634901372506,
+     "mean_ndcg@10": 0.3666547344145594,
      "n_profiles": 3
     },
     "arts": {
-     "mean_ndcg@10": 0.6182199762887967,
+     "mean_ndcg@10": 0.5302172303035212,
      "n_profiles": 3
     },
     "career": {
-     "mean_ndcg@10": 0.5159238646468725,
+     "mean_ndcg@10": 0.5476608815613687,
      "n_profiles": 3
     },
     "community": {
-     "mean_ndcg@10": 0.6000979903775516,
+     "mean_ndcg@10": 0.43649069398599394,
      "n_profiles": 2
     },
     "culture": {
-     "mean_ndcg@10": 0.7916272138917788,
+     "mean_ndcg@10": 0.5791553641908923,
      "n_profiles": 2
     },
     "sports": {
-     "mean_ndcg@10": 0.694174024460368,
+     "mean_ndcg@10": 0.6261628643355627,
      "n_profiles": 2
     },
     "technology": {
-     "mean_ndcg@10": 0.550439337553177,
+     "mean_ndcg@10": 0.43778983366397145,
      "n_profiles": 3
     },
     "wellness": {
-     "mean_ndcg@10": 0.5879552348309501,
+     "mean_ndcg@10": 0.582716549762435,
      "n_profiles": 3
     }
    },
    "tfidf": {
     "academic": {
-     "mean_ndcg@10": 0.3515871316270614,
+     "mean_ndcg@10": 0.23999305117115066,
      "n_profiles": 3
     },
     "arts": {
-     "mean_ndcg@10": 0.05639352901121619,
+     "mean_ndcg@10": 0.05765637349256198,
      "n_profiles": 3
     },
     "career": {
-     "mean_ndcg@10": 0.46901502237779996,
+     "mean_ndcg@10": 0.3618148140520529,
      "n_profiles": 3
     },
     "community": {
-     "mean_ndcg@10": 0.5455439875513595,
+     "mean_ndcg@10": 0.46948231073999935,
      "n_profiles": 2
     },
     "culture": {
-     "mean_ndcg@10": 0.23585942062538595,
+     "mean_ndcg@10": 0.16049155472410553,
      "n_profiles": 2
     },
     "sports": {
@@ -1051,45 +1051,45 @@
      "n_profiles": 2
     },
     "technology": {
-     "mean_ndcg@10": 0.21353839684574946,
+     "mean_ndcg@10": 0.15316933862877166,
      "n_profiles": 3
     },
     "wellness": {
-     "mean_ndcg@10": 0.4684298130558269,
+     "mean_ndcg@10": 0.3724356802563764,
      "n_profiles": 3
     }
    },
    "embed": {
     "academic": {
-     "mean_ndcg@10": 0.7390203153468269,
+     "mean_ndcg@10": 0.7364701800832046,
      "n_profiles": 3
     },
     "arts": {
-     "mean_ndcg@10": 0.615498755056859,
+     "mean_ndcg@10": 0.565504325675009,
      "n_profiles": 3
     },
     "career": {
-     "mean_ndcg@10": 0.6842538415903903,
+     "mean_ndcg@10": 0.6026523512230043,
      "n_profiles": 3
     },
     "community": {
-     "mean_ndcg@10": 0.852599352655812,
+     "mean_ndcg@10": 0.801417181662831,
      "n_profiles": 2
     },
     "culture": {
-     "mean_ndcg@10": 0.772424855584561,
+     "mean_ndcg@10": 0.6902578905077181,
      "n_profiles": 2
     },
     "sports": {
-     "mean_ndcg@10": 0.7124736434807406,
+     "mean_ndcg@10": 0.7033107100081508,
      "n_profiles": 2
     },
     "technology": {
-     "mean_ndcg@10": 0.6887241467796056,
+     "mean_ndcg@10": 0.551416920930481,
      "n_profiles": 3
     },
     "wellness": {
-     "mean_ndcg@10": 0.7039410025990737,
+     "mean_ndcg@10": 0.6113040585832269,
      "n_profiles": 3
     }
    }
@@ -1098,179 +1098,158 @@
    "baseline": [
     {
      "profile_id": "p01",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p03",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p04",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p05",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p06",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p08",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p09",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p10",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p11",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p12",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p01",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p02",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p03",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p04",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p05",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p06",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p07",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p08",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     }
    ],
    "current": [
     {
-     "profile_id": "p01",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 1,
-     "rating": 0
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 1,
-     "rating": 0
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
-     "rank": 1,
-     "rating": 0
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 1,
-     "rating": 0
-    },
-    {
      "profile_id": "p11",
-     "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
-     "title": "LWJ- Bible Study",
-     "rank": 2,
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p12",
+     "event_id": "4ef22d28341feb2898449f8890e64207daf5147cfa9357dbd0b08e547d6ea9e9",
+     "title": "Education Abroad x College of Engineering Workshop at Smith 229",
+     "rank": 1,
      "rating": 0
     },
     {
@@ -1281,45 +1260,10 @@
      "rating": 0
     },
     {
-     "profile_id": "p06",
-     "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
-     "title": "LWJ- Bible Study",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
-     "rank": 3,
-     "rating": 0
-    },
-    {
      "profile_id": "p11",
-     "event_id": "5e803324adaa0dd258f093990da6aa8ec92f796d5f4ad32a9c563046aeaa9bab",
-     "title": "Boot, Bites and Blessings",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
-     "rank": 4,
-     "rating": 0
-    },
-    {
-     "profile_id": "p04",
      "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
      "title": "LWJ- Bible Study",
-     "rank": 4,
+     "rank": 3,
      "rating": 0
     },
     {
@@ -1330,37 +1274,30 @@
      "rating": 0
     },
     {
-     "profile_id": "p09",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
+     "profile_id": "p08",
+     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
+     "title": "Popp Into Student Involvement",
      "rank": 4,
+     "rating": 0
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "5e803324adaa0dd258f093990da6aa8ec92f796d5f4ad32a9c563046aeaa9bab",
+     "title": "Boot, Bites and Blessings",
+     "rank": 4,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
+     "title": "LWJ- Bible Study",
+     "rank": 5,
      "rating": 0
     },
     {
      "profile_id": "p11",
      "event_id": "c77fee5595f629f4915f2b98a12b568b9982fe40ce3a8a5323efe9fdd89df3d9",
      "title": "Mental Health First Aid (Student)",
-     "rank": 4,
-     "rating": 0
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "5e803324adaa0dd258f093990da6aa8ec92f796d5f4ad32a9c563046aeaa9bab",
-     "title": "Boot, Bites and Blessings",
-     "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "5e803324adaa0dd258f093990da6aa8ec92f796d5f4ad32a9c563046aeaa9bab",
-     "title": "Boot, Bites and Blessings",
-     "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "030e11034bd15c7cfb5cb19b9718883b734ec5afaa5d1c62f8763a0af4658dd7",
-     "title": "ITSC 1212 & ITSC 1213 Drop In Hours",
      "rank": 5,
      "rating": 0
     },
@@ -1372,10 +1309,73 @@
      "rating": 0
     },
     {
+     "profile_id": "p04",
+     "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
+     "title": "LWJ- Bible Study",
+     "rank": 6,
+     "rating": 0
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "bd9b7b709f2b619e0f89d6ef5765f12b8e23f499ab37d84919aca10e2d8523da",
+     "title": "MATH 1241 Drop In Hours",
+     "rank": 6,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
+     "title": "Popp Into Student Involvement",
+     "rank": 7,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "5e803324adaa0dd258f093990da6aa8ec92f796d5f4ad32a9c563046aeaa9bab",
+     "title": "Boot, Bites and Blessings",
+     "rank": 7,
+     "rating": 0
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "5afb59d1c7d3b1a7a1afe9ffe5831d31a75ab4e82392f4e20484b9c7b944582d",
+     "title": "Sweater Weather Fundraiser",
+     "rank": 7,
+     "rating": 0
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "4bd20e61bcf87920cd0e6bfab63a22c0abfd344774c6a0db76be04524938276f",
+     "title": "Green Dot Bystander Training",
+     "rank": 7,
+     "rating": 0
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "5afb59d1c7d3b1a7a1afe9ffe5831d31a75ab4e82392f4e20484b9c7b944582d",
+     "title": "Sweater Weather Fundraiser",
+     "rank": 8,
+     "rating": 0
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "5e803324adaa0dd258f093990da6aa8ec92f796d5f4ad32a9c563046aeaa9bab",
+     "title": "Boot, Bites and Blessings",
+     "rank": 8,
+     "rating": 0
+    },
+    {
      "profile_id": "p05",
      "event_id": "9bf78ee5b90ec18f1174240e1026facbc519bc2cce8e4d87744fef91a1ff318a",
      "title": "The Final Jam",
-     "rank": 6,
+     "rank": 8,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "c77fee5595f629f4915f2b98a12b568b9982fe40ce3a8a5323efe9fdd89df3d9",
+     "title": "Mental Health First Aid (Student)",
+     "rank": 8,
      "rating": 0
     }
    ],
@@ -1389,158 +1389,151 @@
     },
     {
      "profile_id": "p03",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "d207561eabea17e3e31a18e2e7fc33bc5894c26ce5052c80a586b5c19311be96",
+     "title": "Final Examinations for Saturday classes at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p08",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p09",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "d207561eabea17e3e31a18e2e7fc33bc5894c26ce5052c80a586b5c19311be96",
+     "title": "Final Examinations for Saturday classes at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p12",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p02",
-     "event_id": "e6fdfd1dedc1a6b65103fb1d7ce63094c7d0b75b90eb220558d7e6f1873f0f3a",
-     "title": "Trivia Night at Armored Cow",
+     "event_id": "cc0531a3f31065eaad4c03e82842595911d2b7033ed16b8b8d8741aaa422968e",
+     "title": "Empowerher Holiday Night at Union theater",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p03",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "2d46b900ab5cc6b8dea9caa3dbc98496d74b25c478cad44dbbf2a0cc36d6dab5",
-     "title": "CAB's Comedy Show",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p06",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "event_id": "0c140c3699b442633fb5b361489c5a88919cbded64509fdb5489040f92a2672d",
+     "title": "Faculty Final web grading access available at UNC Charlotte Academic Calendar",
      "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "0c140c3699b442633fb5b361489c5a88919cbded64509fdb5489040f92a2672d",
+     "title": "Faculty Final web grading access available at UNC Charlotte Academic Calendar",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p12",
+     "event_id": "ba12505bd96ffaa4229a1c6523a15819ed5efe26a56c5d82ad34e94da78906ed",
+     "title": "Thriving from Work from Anywhere: Location-Independent Work as a Pathway to Black Workers\u2019 Enhanced Subjective Well-Being at Register through this form to recieve a Zoom link: http://bit.ly/3L2dE5U",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "9c6e03d9a93a1b9cc482a667411751c345dc9ee00fe5c7be2f315ba04fa7ba97",
+     "title": "Empowerher Holiday Night at Union theater",
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "bd9b7b709f2b619e0f89d6ef5765f12b8e23f499ab37d84919aca10e2d8523da",
+     "title": "MATH 1241 Drop In Hours",
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p07",
      "event_id": "ce95b7a4f8cf2969200c384695290f8fe80b74aa02f0c0ca7f5623011b494136",
      "title": "UTD | General Body Meeting",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p12",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p01",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p03",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "7e26233f376017e38dbd8f181ed4b7a3aba2356242dc12794e2ae0a49e35791a",
-     "title": "AutoHaven Fall AutoFair",
      "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p08",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
+     "event_id": "bd9b7b709f2b619e0f89d6ef5765f12b8e23f499ab37d84919aca10e2d8523da",
+     "title": "MATH 1241 Drop In Hours",
      "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p09",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
+     "event_id": "bd9b7b709f2b619e0f89d6ef5765f12b8e23f499ab37d84919aca10e2d8523da",
+     "title": "MATH 1241 Drop In Hours",
      "rank": 3,
      "rating": 0
     }
    ],
    "embed": [
     {
-     "profile_id": "p09",
-     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
-     "title": "Career Game Night",
+     "profile_id": "p06",
+     "event_id": "e0e8a3d4ae302c61b03614feb601f508152bcea421b16244f6888fc9ce9df857",
+     "title": "Career Meet Up: Professionalism During Your Interview for Tech, Data and Analytics",
      "rank": 1,
      "rating": 0
     },
     {
-     "profile_id": "p06",
-     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
-     "title": "From Classroom to Career: Exploring the World of HR",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "ba7768e246d78b498eebe75b22398c467e96434cba674fa71b22f99ff06b1c8d",
-     "title": "AFROTC Dining In Ceremony",
-     "rank": 2,
+     "profile_id": "p09",
+     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
+     "title": "Career Game Night",
+     "rank": 1,
      "rating": 0
     },
     {
@@ -1551,115 +1544,108 @@
      "rating": 0
     },
     {
-     "profile_id": "p02",
-     "event_id": "5d75b98b10f5db2c78672a2b721ca07f41d6c073a8d17297c39cce8d9b98dbdd",
-     "title": "Holiday Remix Demo Kitchen",
+     "profile_id": "p12",
+     "event_id": "71c371886c3ff77ed857f3b3057320a3acca22e7cf47a7356bfad70df9f2882e",
+     "title": "ALPFA Games / Senior Sendoff at Klein 104",
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "3e7c904be14e3d5316654c919c2d8cb556aa81b7f576d8eae6b618545caed76b",
+     "title": "From Classroom to Career: Exploring the World of HR at UNC Charlotte, Belk College of Business, Friday Building, Room 212",
      "rank": 4,
+     "rating": 0
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "ba7768e246d78b498eebe75b22398c467e96434cba674fa71b22f99ff06b1c8d",
+     "title": "AFROTC Dining In Ceremony",
+     "rank": 4,
+     "rating": 0
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "cc0531a3f31065eaad4c03e82842595911d2b7033ed16b8b8d8741aaa422968e",
+     "title": "Empowerher Holiday Night at Union theater",
+     "rank": 5,
+     "rating": 0
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "8b3dba8398e13cf0ef3e3b97c2ff88a617c76c4838a921951936267cb557ad33",
+     "title": "Hobbies for Mental and Physical Health Webinar",
+     "rank": 5,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "39632bf423355e83cce71849c05a322f2540a55203e104396840bc8fb85fee74",
+     "title": "Career Meet Up: Communicating Creative Skills in an Interview",
+     "rank": 6,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
+     "title": "From Classroom to Career: Exploring the World of HR",
+     "rank": 6,
+     "rating": 0
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "9c6e03d9a93a1b9cc482a667411751c345dc9ee00fe5c7be2f315ba04fa7ba97",
+     "title": "Empowerher Holiday Night at Union theater",
+     "rank": 6,
+     "rating": 0
+    },
+    {
+     "profile_id": "p12",
+     "event_id": "8254f891c0a5f8822efec32474f53def6245ec8d9f1e720a7646573f7fb5d3a4",
+     "title": "Game Night at CHHS 128",
+     "rank": 7,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "0ae71ad178388d2832dc82d217a249a90e8e37be79bff034330c92c2fbaef350",
+     "title": "Education Abroad Faculty-Led Program Development Workshop & Panel at Student Union 262",
+     "rank": 8,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "cc0531a3f31065eaad4c03e82842595911d2b7033ed16b8b8d8741aaa422968e",
+     "title": "Empowerher Holiday Night at Union theater",
+     "rank": 9,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "9c723056d36a58cffdac076f8630e2ea6099709ac8a01697efd9c750832b8df0",
+     "title": "Digital Accessibility \u2018Fix-It Clinic\u2019",
+     "rank": 9,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "9c6e03d9a93a1b9cc482a667411751c345dc9ee00fe5c7be2f315ba04fa7ba97",
+     "title": "Empowerher Holiday Night at Union theater",
+     "rank": 10,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "9a278e1036e53ce98ef718ce0c9523f31871d5074693ff5e4a07455f09084899",
+     "title": "Digital Accessibility \u2018Fix-It Clinic\u2019",
+     "rank": 10,
      "rating": 0
     },
     {
      "profile_id": "p12",
      "event_id": "4121e78f27e4f0439207fb90734dfc5be9efee6a6fd3a89d3048a72dfbd35649",
      "title": "Game Night",
-     "rank": 4,
-     "rating": 0
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "372aec7f3a44d66404ea9b8440916b6c2dbd6240fc12e77dd7e2bd82e4f6d26c",
-     "title": "Empowerher Holiday Night",
-     "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "5c6e57f516571f4711a7604075f30cb3f6e8d751603ae02b74cf4f52fdf3bd96",
-     "title": "Rhythm Gaming LAN - Full Combo",
-     "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p12",
-     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
-     "title": "Career Game Night",
-     "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "372aec7f3a44d66404ea9b8440916b6c2dbd6240fc12e77dd7e2bd82e4f6d26c",
-     "title": "Empowerher Holiday Night",
-     "rank": 6,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "2d339aef697eae4bef52814bb132530395d4459ea20e0964fb26f0aec9f99e75",
-     "title": "Game Developer's Club Showcase",
-     "rank": 6,
-     "rating": 0
-    },
-    {
-     "profile_id": "p03",
-     "event_id": "c9b778aa9be9dd339d7741d279591f980d93ae62f56a862be531058143b66d4c",
-     "title": "Financial Wellness: Your Money Matters",
-     "rank": 7,
-     "rating": 0
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "33a01d9bfab724d56096106c614a6e28f6827e281bb39b8d38af820bcc54039c",
-     "title": "UNC Charlotte\u2019s JBusiness Forum 2026",
-     "rank": 7,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "45ff9e70c43a2fa5cd3010f62a4b1a2553463deb136ad1cb49b3a1495f073861",
-     "title": "Raffle Night",
-     "rank": 7,
-     "rating": 0
-    },
-    {
-     "profile_id": "p01",
-     "event_id": "4c180017f0f6beb1645c8262a3b0b174972085e9d9063899617e5933b6b14394",
-     "title": "UCAE Mindset and Motivation Workshop Simulcast",
-     "rank": 8,
-     "rating": 0
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "1eee24dca99a40be59a3f923bf8de34b7662256381bfe80cd0870528b3e0f360",
-     "title": "Trivia Night",
-     "rank": 8,
-     "rating": 0
-    },
-    {
-     "profile_id": "p03",
-     "event_id": "ce95b7a4f8cf2969200c384695290f8fe80b74aa02f0c0ca7f5623011b494136",
-     "title": "UTD | General Body Meeting",
-     "rank": 8,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "5c6e57f516571f4711a7604075f30cb3f6e8d751603ae02b74cf4f52fdf3bd96",
-     "title": "Rhythm Gaming LAN - Full Combo",
-     "rank": 8,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "1eee24dca99a40be59a3f923bf8de34b7662256381bfe80cd0870528b3e0f360",
-     "title": "Trivia Night",
-     "rank": 8,
-     "rating": 0
-    },
-    {
-     "profile_id": "p12",
-     "event_id": "9d0f2a43e38b36acc851d11fc887c9416e367c86ca2e3763823e59914b7d096f",
-     "title": "Business After Hours: Casino Night",
-     "rank": 8,
+     "rank": 10,
      "rating": 0
     }
    ]
@@ -1674,315 +1660,10 @@
      "rating": 2
     },
     {
-     "profile_id": "p06",
-     "event_id": "6e2efba59a8eb3b0c98bf56beb59c00b2a158bbb0fc5cabad5946af7d63431d5",
-     "title": "ECGR 2254 & ECGR 3111 Drop In Hours",
-     "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "6e2efba59a8eb3b0c98bf56beb59c00b2a158bbb0fc5cabad5946af7d63431d5",
-     "title": "ECGR 2254 & ECGR 3111 Drop In Hours",
-     "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "ddcd9729258a66e2dad933b7acbedc5f4849a8a085ed89f32ba67be265836b17",
-     "title": "ECGR 2111 Drop In Hours",
-     "rank": 14,
-     "rating": 2
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "8fbe786676595b0f042532b1dcb81252757800b0022484014fdcc9339d41a5e3",
-     "title": "PAL Session - CHEM 1200 (ONLINE)",
-     "rank": 18,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
-     "title": "Feel Better Fast: Managing Emotions",
-     "rank": 21,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
-     "title": "Feel Better Fast: Managing Emotions",
-     "rank": 21,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "0df5f1932e7de4cfd0091c41655ffd620e6f138ca2f624ccd58730f3415677ec",
-     "title": "MATH 1241, MATH 1242, ITSC 2214, and ITSC 2181 Drop In Hours",
-     "rank": 22,
-     "rating": 2
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
-     "title": "From Classroom to Career: Exploring the World of HR",
-     "rank": 31,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
-     "title": "From Classroom to Career: Exploring the World of HR",
-     "rank": 31,
-     "rating": 2
-    },
-    {
      "profile_id": "p01",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 33,
-     "rating": 2
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 33,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
-     "title": "UCAE Stress Less Workshop Simulcast",
-     "rank": 35,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
-     "title": "UCAE Stress Less Workshop Simulcast",
-     "rank": 35,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
-     "title": "Reset for The Test",
-     "rank": 43,
-     "rating": 2
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "b8129e5c8ed22f04b4447503648dfe2f43d9875bb4b25b50effd3da670a245b6",
-     "title": "PAL Session - CHEM 2131 (ONLINE)",
-     "rank": 44,
-     "rating": 2
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "3f476f5eb395318695e28954b73ea611c6e351984024acb5772ca4534a09f112",
-     "title": "Pi\u00f1atas With The First",
-     "rank": 45,
-     "rating": 2
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "3f476f5eb395318695e28954b73ea611c6e351984024acb5772ca4534a09f112",
-     "title": "Pi\u00f1atas With The First",
-     "rank": 45,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "8351147742194c1fa5efbe7c7db304620c274cb30c4ad8ed9d9e6b12ba088536",
-     "title": "ECGR 2111, ECGR 2254, ECGR 2181 Drop In Tutoring",
-     "rank": 50,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "32a37936767bb477b1803d1eb372dc19831aecca8f476e7cc61e496f73be9e56",
-     "title": "ECGR 2111 Drop In Hours",
-     "rank": 53,
-     "rating": 2
-    }
-   ],
-   "current": [
-    {
-     "profile_id": "p01",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 14,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "397669441fa48188ef21606446c9bc1d8ab54bced25d54fad99f0b6d9b337c67",
-     "title": "Dimensions of Wellness Bingo and DIY Stress Balls Night",
-     "rank": 20,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "b176f9beadc684ce771f56d741d2b21b577c741d8ea7a63a107f2a2072367e16",
-     "title": "BYO Self-Care Bags",
-     "rank": 22,
-     "rating": 2
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 22,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "e46690e69298fd6c059e13e9c017264f878a9887e933daa257da4d1f957e4483",
-     "title": "Crisis Assistance Ministry",
-     "rank": 25,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "18a1601bcfd00aa4cea4b95f295325cd157c364401d5397cf378bbcce66fb479",
-     "title": "Business After Hours: Casino Night",
-     "rank": 28,
-     "rating": 2
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
-     "title": "Masked Singer",
-     "rank": 31,
-     "rating": 2
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
-     "title": "Masked Singer",
-     "rank": 33,
-     "rating": 2
-    },
-    {
-     "profile_id": "p03",
-     "event_id": "228f9a13ef81643b09fc2a7e819d0c572b128ef0fa9a6bbb092b8c4abb114b44",
-     "title": "Pilates w/ Chi-O",
-     "rank": 36,
-     "rating": 2
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "c6653b703243e217ecb6b6a618cea6afc9023a861f4943badd6244a1c582f6d0",
-     "title": "Fasugiving",
-     "rank": 52,
-     "rating": 2
-    },
-    {
-     "profile_id": "p03",
-     "event_id": "650138b6e6a30f86e4b0e4dcb7e5c53764b31f6803a4fa50f0bbb733932f49fe",
-     "title": "All About Legs",
-     "rank": 58,
-     "rating": 2
-    },
-    {
-     "profile_id": "p12",
-     "event_id": "2d339aef697eae4bef52814bb132530395d4459ea20e0964fb26f0aec9f99e75",
-     "title": "Game Developer's Club Showcase",
-     "rank": 64,
-     "rating": 2
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "c3c431d897bdcf4cd1cae954bc66f1ca05d2f44e26790e20d3c389daf84e6ea9",
-     "title": "Cheer Nation Showdown",
-     "rank": 65,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "752ba931b795b0b9532ec2dad4236172585549d3cb118cbe3bbca423001f1eba",
-     "title": "Feel Better Fast: Managing Difficult Thoughts",
-     "rank": 83,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "d23b5dbdfb8fa55aefefaff781e1cc9bd7b1b6ea55f60baafb0148b942983dd0",
-     "title": "Giving the Gold",
-     "rank": 84,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "6df07c50144d78b6df12635d6e3e3ce6ac242792257293ce1bf4bf7b56de2ec8",
-     "title": "Business After Hours: Casino Night",
-     "rank": 85,
-     "rating": 2
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "24f9894851c21158616ffa08d119118aa654a6ee85789c789f08e14f6d933ab8",
-     "title": "PAL Session - ACCT 3323 (MCENIRY 118)",
-     "rank": 109,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "24f9894851c21158616ffa08d119118aa654a6ee85789c789f08e14f6d933ab8",
-     "title": "PAL Session - ACCT 3323 (MCENIRY 118)",
-     "rank": 110,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "c7e5a190b515914d60cd606680197e521a5e70870ecd9eab5d732e90feb63f7c",
-     "title": "Jamil Niner Student Pantry: Wednesday Volunteer Shift | 10:30am \u2013 12:45pm",
-     "rank": 113,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "bd9b7b709f2b619e0f89d6ef5765f12b8e23f499ab37d84919aca10e2d8523da",
-     "title": "MATH 1241 Drop In Hours",
-     "rank": 120,
-     "rating": 2
-    }
-   ],
-   "tfidf": [
-    {
-     "profile_id": "p04",
-     "event_id": "24f9894851c21158616ffa08d119118aa654a6ee85789c789f08e14f6d933ab8",
-     "title": "PAL Session - ACCT 3323 (MCENIRY 118)",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "ab615793511689f43439eb0f6d31ebd8a7416bfd031493a6c98b7f79762c7085",
-     "title": "PAL Session: CHEM 1203 (CHHS 294)",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "4279612bd5ed25ef11aeac74c088332c3e6ac79a3376daa31ac499c90e13eb33",
-     "title": "SPAN 1101 & SPAN 1102 Drop In Hours",
+     "event_id": "54b3f7938f126d7c813ae5ada2c8afb82afbfb8a39322446d4954c5e1cbb26e2",
+     "title": "Alumni Takeover Month: Day in the Life of a Sales Data Analyst in Consumer Packaged Goods",
      "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "6e2efba59a8eb3b0c98bf56beb59c00b2a158bbb0fc5cabad5946af7d63431d5",
-     "title": "ECGR 2254 & ECGR 3111 Drop In Hours",
-     "rank": 13,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "6e2efba59a8eb3b0c98bf56beb59c00b2a158bbb0fc5cabad5946af7d63431d5",
-     "title": "ECGR 2254 & ECGR 3111 Drop In Hours",
-     "rank": 13,
      "rating": 2
     },
     {
@@ -1993,24 +1674,159 @@
      "rating": 2
     },
     {
-     "profile_id": "p05",
-     "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
-     "title": "Reset for The Test",
+     "profile_id": "p04",
+     "event_id": "55081e520499281462d638f766ed5fbd1f8f08fb3b56e2fef94a7a9e8225624c",
+     "title": "Career Meet Up: Resume Writing Basics",
      "rank": 17,
      "rating": 2
     },
     {
-     "profile_id": "p07",
-     "event_id": "5be13f78ee1ff7372eb24cf3aa45a88ca99d38a7083ed22574c2552bb1fda889",
-     "title": "Hmong New Year Gala",
-     "rank": 23,
+     "profile_id": "p05",
+     "event_id": "439cda3c2f2f3f8804bdec6b8b65b77924a2c2b21dfbbd523fa5ae43d6e1732e",
+     "title": "Feel Better Fast: Managing Emotions at Student Union 267",
+     "rank": 26,
      "rating": 2
     },
     {
-     "profile_id": "p11",
-     "event_id": "0df5f1932e7de4cfd0091c41655ffd620e6f138ca2f624ccd58730f3415677ec",
-     "title": "MATH 1241, MATH 1242, ITSC 2214, and ITSC 2181 Drop In Hours",
-     "rank": 23,
+     "profile_id": "p05",
+     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
+     "title": "Feel Better Fast: Managing Emotions",
+     "rank": 27,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
+     "title": "Feel Better Fast: Managing Emotions",
+     "rank": 27,
+     "rating": 2
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "3ee602cd8e00f3d6732c8bc576c9ba1b5d70dc303ff60d86aee059f576d1d042",
+     "title": "Folding Peace: Origami Crane Workshop & the Story of Sadako at Popp Martin Student Union Lobby",
+     "rank": 36,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
+     "title": "From Classroom to Career: Exploring the World of HR",
+     "rank": 42,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
+     "title": "From Classroom to Career: Exploring the World of HR",
+     "rank": 42,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "3e7c904be14e3d5316654c919c2d8cb556aa81b7f576d8eae6b618545caed76b",
+     "title": "From Classroom to Career: Exploring the World of HR at UNC Charlotte, Belk College of Business, Friday Building, Room 212",
+     "rank": 43,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
+     "title": "AI Day: Project Expo",
+     "rank": 45,
+     "rating": 2
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
+     "title": "AI Day: Project Expo",
+     "rank": 45,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "d64b7d8d1d7a531d1049b2a0f42f7d164846959328111e1809cf0b97052e6b82",
+     "title": "AI Day: Project Expo at SAC Salons A-C",
+     "rank": 47,
+     "rating": 2
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "d64b7d8d1d7a531d1049b2a0f42f7d164846959328111e1809cf0b97052e6b82",
+     "title": "AI Day: Project Expo at SAC Salons A-C",
+     "rank": 47,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
+     "title": "UCAE Stress Less Workshop Simulcast",
+     "rank": 53,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
+     "title": "UCAE Stress Less Workshop Simulcast",
+     "rank": 53,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "8ecd079f4390ef4f5fb5c20c1591f66dae6851176723580656d1b25cb2743b76",
+     "title": "UCAE Stress Less Workshop Simulcast at Colvard North 2006",
+     "rank": 54,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
+     "title": "Reset for The Test",
+     "rank": 69,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "3f476f5eb395318695e28954b73ea611c6e351984024acb5772ca4534a09f112",
+     "title": "Pi\u00f1atas With The First",
+     "rank": 71,
+     "rating": 2
+    }
+   ],
+   "current": [
+    {
+     "profile_id": "p05",
+     "event_id": "b5d396aa1a55437b745fde16a38a7b81f921a817d8ee1bd70ed2a95c10bb3fc0",
+     "title": "Jamil Niner Student Pantry: Tuesday Volunteer Shift | 2:30pm \u2013 5:15pm",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "3f476f5eb395318695e28954b73ea611c6e351984024acb5772ca4534a09f112",
+     "title": "Pi\u00f1atas With The First",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "a02e8f66eb392d9b61e5a61ab03c0326353901f9e0240f2e4ba0f2ac6bed65bf",
+     "title": "Holiday Concert",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
+     "title": "AI Day: Project Expo",
+     "rank": 13,
+     "rating": 2
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
+     "title": "AI Day: Project Expo",
+     "rank": 20,
      "rating": 2
     },
     {
@@ -2021,215 +1837,385 @@
      "rating": 2
     },
     {
-     "profile_id": "p10",
-     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
-     "title": "Feel Better Fast: Managing Emotions",
-     "rank": 29,
-     "rating": 2
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "8fbe786676595b0f042532b1dcb81252757800b0022484014fdcc9339d41a5e3",
-     "title": "PAL Session - CHEM 1200 (ONLINE)",
+     "profile_id": "p08",
+     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
+     "title": "Masked Singer",
      "rank": 31,
      "rating": 2
     },
     {
-     "profile_id": "p05",
-     "event_id": "3a7109c566f184b277db3a7be4ca7a55559c4167465056a0572260bd2e7f3259",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 2:30pm \u2013 5:15pm",
-     "rank": 31,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "b5d396aa1a55437b745fde16a38a7b81f921a817d8ee1bd70ed2a95c10bb3fc0",
-     "title": "Jamil Niner Student Pantry: Tuesday Volunteer Shift | 2:30pm \u2013 5:15pm",
-     "rank": 32,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "c7e5a190b515914d60cd606680197e521a5e70870ecd9eab5d732e90feb63f7c",
-     "title": "Jamil Niner Student Pantry: Wednesday Volunteer Shift | 10:30am \u2013 12:45pm",
-     "rank": 33,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "0f422afca132d8eabe007392015c3632994561fd9f71b048005e5b1e72629302",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 10:30am \u2013 12:45pm",
-     "rank": 34,
-     "rating": 2
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 34,
-     "rating": 2
-    },
-    {
-     "profile_id": "p04",
-     "event_id": "b8129e5c8ed22f04b4447503648dfe2f43d9875bb4b25b50effd3da670a245b6",
-     "title": "PAL Session - CHEM 2131 (ONLINE)",
-     "rank": 35,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "5970b26dcc11505b8f06e0c26865aaa619937103534f596ae44a596ecf7f8d00",
-     "title": "Jamil Niner Student Pantry: Wednesday Volunteer Shift | 12:30pm \u2013 3:30pm",
-     "rank": 35,
-     "rating": 2
-    },
-    {
-     "profile_id": "p01",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 36,
-     "rating": 2
-    }
-   ],
-   "embed": [
-    {
-     "profile_id": "p05",
-     "event_id": "3a7109c566f184b277db3a7be4ca7a55559c4167465056a0572260bd2e7f3259",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 2:30pm \u2013 5:15pm",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "18a1601bcfd00aa4cea4b95f295325cd157c364401d5397cf378bbcce66fb479",
-     "title": "Business After Hours: Casino Night",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "ab0118d1932a39625aec6532115a5aa33a5b1c21af314b7ac9513a9d7aa484c1",
-     "title": "EXER 2168 Drop In Hours",
-     "rank": 11,
+     "profile_id": "p07",
+     "event_id": "c6653b703243e217ecb6b6a618cea6afc9023a861f4943badd6244a1c582f6d0",
+     "title": "Fasugiving",
+     "rank": 50,
      "rating": 2
     },
     {
      "profile_id": "p03",
-     "event_id": "4571d069fba785fe3514ea9c281f495d0be8f8e5ef70b24711117fa0c29462ae",
-     "title": "CEPA Mundial",
-     "rank": 12,
+     "event_id": "650138b6e6a30f86e4b0e4dcb7e5c53764b31f6803a4fa50f0bbb733932f49fe",
+     "title": "All About Legs",
+     "rank": 61,
      "rating": 2
     },
     {
-     "profile_id": "p04",
-     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
-     "title": "Career Game Night",
-     "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "0f422afca132d8eabe007392015c3632994561fd9f71b048005e5b1e72629302",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 10:30am \u2013 12:45pm",
-     "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "6df07c50144d78b6df12635d6e3e3ce6ac242792257293ce1bf4bf7b56de2ec8",
-     "title": "Business After Hours: Casino Night",
-     "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "0df5f1932e7de4cfd0091c41655ffd620e6f138ca2f624ccd58730f3415677ec",
-     "title": "MATH 1241, MATH 1242, ITSC 2214, and ITSC 2181 Drop In Hours",
-     "rank": 12,
-     "rating": 2
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "5be13f78ee1ff7372eb24cf3aa45a88ca99d38a7083ed22574c2552bb1fda889",
-     "title": "Hmong New Year Gala",
-     "rank": 14,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
-     "title": "Career Game Night",
-     "rank": 15,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "8351147742194c1fa5efbe7c7db304620c274cb30c4ad8ed9d9e6b12ba088536",
-     "title": "ECGR 2111, ECGR 2254, ECGR 2181 Drop In Tutoring",
-     "rank": 15,
+     "profile_id": "p12",
+     "event_id": "2d339aef697eae4bef52814bb132530395d4459ea20e0964fb26f0aec9f99e75",
+     "title": "Game Developer's Club Showcase",
+     "rank": 66,
      "rating": 2
     },
     {
      "profile_id": "p05",
-     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
-     "title": "Feel Better Fast: Managing Emotions",
-     "rank": 16,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "9606d22298a8e6f87e6b067ba3f39e434550c34d3ae9c7cf4145ff718439e544",
-     "title": "ECGR 2111, ECGR 2254, ECGR 2181 Drop In Tutoring",
-     "rank": 16,
+     "event_id": "439cda3c2f2f3f8804bdec6b8b65b77924a2c2b21dfbbd523fa5ae43d6e1732e",
+     "title": "Feel Better Fast: Managing Emotions at Student Union 267",
+     "rank": 80,
      "rating": 2
     },
     {
      "profile_id": "p05",
-     "event_id": "752ba931b795b0b9532ec2dad4236172585549d3cb118cbe3bbca423001f1eba",
-     "title": "Feel Better Fast: Managing Difficult Thoughts",
-     "rank": 17,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "51836c48390b97f26f000760b311fee3f21251fad090f42dee6cc99edbf74c20",
-     "title": "ECGR 2111, ECGR 2254, ECGR 2181 Drop In Tutoring",
-     "rank": 17,
-     "rating": 2
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "cbd4def9a9429c55bc1c664dedd3b80243bcecdecc2525f879d80f0540350e20",
-     "title": "Codachrome A Cappella's 2026 Fall Showcase",
-     "rank": 18,
+     "event_id": "397669441fa48188ef21606446c9bc1d8ab54bced25d54fad99f0b6d9b337c67",
+     "title": "Dimensions of Wellness Bingo and DIY Stress Balls Night",
+     "rank": 85,
      "rating": 2
     },
     {
      "profile_id": "p05",
-     "event_id": "d23b5dbdfb8fa55aefefaff781e1cc9bd7b1b6ea55f60baafb0148b942983dd0",
-     "title": "Giving the Gold",
-     "rank": 20,
+     "event_id": "b176f9beadc684ce771f56d741d2b21b577c741d8ea7a63a107f2a2072367e16",
+     "title": "BYO Self-Care Bags",
+     "rank": 90,
      "rating": 2
     },
     {
-     "profile_id": "p05",
-     "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
-     "title": "Reset for The Test",
-     "rank": 26,
+     "profile_id": "p09",
+     "event_id": "8f289f4f4b8cdf2d041fa7c2fb5632277edbd1e6bb3f0927aa8ed1c230b4f901",
+     "title": "Charlotte 49ers Women's Tennis vs NCAA Individual Championships at Athens, Ga.",
+     "rank": 108,
+     "rating": 2
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "1115c15a65e48b6e1b7bfaca0810af616600c4a0be2155bb800f75c83b559af4",
+     "title": "Info Session - Cybersecurity & HCCE Grad Programs",
+     "rank": 111,
      "rating": 2
     },
     {
      "profile_id": "p11",
      "event_id": "27a7fa8fc4050cc32c07aafff24d09c4ec3ba783b9cd45ff29d08766531ec084",
      "title": "EXER 2168, EXER 2169, EXER 3280, & EXER 3198 Drop In Hours",
-     "rank": 26,
+     "rank": 111,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "5a5024c1f9986cdd5aafdae0de4e5a328176cafb4c1e843d3beaf9b36dd1a095",
+     "title": "Pi\u00f1atas With The First at CHHS 295",
+     "rank": 112,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "55081e520499281462d638f766ed5fbd1f8f08fb3b56e2fef94a7a9e8225624c",
+     "title": "Career Meet Up: Resume Writing Basics",
+     "rank": 118,
+     "rating": 2
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "73abbf17009cdce720c3e1fcff0bb231e31ceb9adc7b4a6d061058f5bf30a88a",
+     "title": "Charlotte 49ers Women's Tennis vs NCAA Individual Championships at Athens, Ga.",
+     "rank": 121,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "ab615793511689f43439eb0f6d31ebd8a7416bfd031493a6c98b7f79762c7085",
+     "title": "PAL Session: CHEM 1203 (CHHS 294)",
+     "rank": 123,
+     "rating": 2
+    }
+   ],
+   "tfidf": [
+    {
+     "profile_id": "p05",
+     "event_id": "b895a4439e1481508f9acebec6435900abcdee1b46414c06b04068cbcb1efcd6",
+     "title": "Feel Better Fast: Managing Difficult Thoughts at Student Union 267",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "f18e70bbf448d09402b619d26618c1dad31674d932d0e3a3d3cfddb937ca536d",
+     "title": "Resume Review with Equitable",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "b176f9beadc684ce771f56d741d2b21b577c741d8ea7a63a107f2a2072367e16",
+     "title": "BYO Self-Care Bags",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "bd9b7b709f2b619e0f89d6ef5765f12b8e23f499ab37d84919aca10e2d8523da",
+     "title": "MATH 1241 Drop In Hours",
+     "rank": 12,
      "rating": 2
     },
     {
      "profile_id": "p10",
-     "event_id": "d5d1059c4ef23a1e7a22604870dae4fea3ecbe5c24f53aace1b28ef42285cad3",
-     "title": "Feel Better Fast: Managing Emotions",
-     "rank": 28,
+     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
+     "title": "From Classroom to Career: Exploring the World of HR",
+     "rank": 14,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "27a7fa8fc4050cc32c07aafff24d09c4ec3ba783b9cd45ff29d08766531ec084",
+     "title": "EXER 2168, EXER 2169, EXER 3280, & EXER 3198 Drop In Hours",
+     "rank": 18,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
+     "title": "From Classroom to Career: Exploring the World of HR",
+     "rank": 19,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "ab615793511689f43439eb0f6d31ebd8a7416bfd031493a6c98b7f79762c7085",
+     "title": "PAL Session: CHEM 1203 (CHHS 294)",
+     "rank": 19,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "4279612bd5ed25ef11aeac74c088332c3e6ac79a3376daa31ac499c90e13eb33",
+     "title": "SPAN 1101 & SPAN 1102 Drop In Hours",
+     "rank": 20,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "adf1527884d212ce6755705d5539265cbb86b616f75b585f93bb24b516fde0ac",
+     "title": "Scout Motors Summer 2027 Internships Are Now Open!",
+     "rank": 23,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "ddcd9729258a66e2dad933b7acbedc5f4849a8a085ed89f32ba67be265836b17",
+     "title": "ECGR 2111 Drop In Hours",
+     "rank": 24,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
+     "title": "Reset for The Test",
+     "rank": 27,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "036ab1f44192f6ae5243127a042449304c3c71c3dbc3469fd93908f2d74071bd",
+     "title": "Scout Motors Summer Internships Information Session (VIRTUAL)",
+     "rank": 32,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "3e7c904be14e3d5316654c919c2d8cb556aa81b7f576d8eae6b618545caed76b",
+     "title": "From Classroom to Career: Exploring the World of HR at UNC Charlotte, Belk College of Business, Friday Building, Room 212",
+     "rank": 36,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "e46690e69298fd6c059e13e9c017264f878a9887e933daa257da4d1f957e4483",
+     "title": "Crisis Assistance Ministry",
+     "rank": 37,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
+     "event_id": "54b3f7938f126d7c813ae5ada2c8afb82afbfb8a39322446d4954c5e1cbb26e2",
+     "title": "Alumni Takeover Month: Day in the Life of a Sales Data Analyst in Consumer Packaged Goods",
+     "rank": 43,
+     "rating": 2
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "5be13f78ee1ff7372eb24cf3aa45a88ca99d38a7083ed22574c2552bb1fda889",
+     "title": "Hmong New Year Gala",
+     "rank": 46,
+     "rating": 2
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "d242315441e1b69b85b572e3a0279c0bbf6bb2fb46b83aee7c946b3686ccf860",
+     "title": "Hmong New Year Gala at Cone Lucas Room",
+     "rank": 47,
+     "rating": 2
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
+     "title": "AI Day: Project Expo",
+     "rank": 54,
+     "rating": 2
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "d64b7d8d1d7a531d1049b2a0f42f7d164846959328111e1809cf0b97052e6b82",
+     "title": "AI Day: Project Expo at SAC Salons A-C",
+     "rank": 55,
+     "rating": 2
+    }
+   ],
+   "embed": [
+    {
+     "profile_id": "p03",
+     "event_id": "8c711ccbbd72df06e271f6f9fec96be0a985746e41b97429012017c2fd5e9084",
+     "title": "$5 InBody Scan Night at University Recreation Center",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "fbc0dc5c5f64c378675c0f26bdad5b359d18836ca5658f90f8347c11db46862e",
+     "title": "Holiday Concert at cone after hours",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "92f4a54218061173160539287f566a34489aeac7d2804f9468520e299916f538",
+     "title": "Charlotte 49ers Women's Tennis vs NCAA Individual Championships at Athens, Ga.",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "5686cd52d89fa5ac28e53e02c568a3539f972d7dab474eaf1ece15b5a85d4a64",
+     "title": "MATH 1103 & MATH 1241 Drop In Hours",
+     "rank": 11,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "3d7d6f3fe43adc934d0143e95498cfb161028a44b7ec2fb00d5edd75a6be6d1b",
+     "title": "Traditional Chinese Painting Workshop at CHHS 159",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "70eaeee68aad12e22669e322b01b0514b0784284031aac82e097189b80919fcd",
+     "title": "Pilates w/ Chi-O at Belk Gym",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "542a2c3d075bfe35977a3afa7f29ab03a6b60d13f1fe64899758e0115c6a947a",
+     "title": "Fall Semester Meeting - Flag Football Championship Night! at Northeast Regional Field Complex",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "e7792bf995c93f67b62713ec9117c1ea04cc94f53a3c1083c24950ae2f094f26",
+     "title": "MATH 1241 Drop In Hours at Learning Commons - Colvard North 2300",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
+     "title": "Masked Singer",
+     "rank": 13,
+     "rating": 2
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "563acfe2d93f79844502ec5147b8c1bc5af5bec310bf330dfe6841ff30042956",
+     "title": "Charlotte Women's Basketball vs. Wofford",
+     "rank": 13,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "39df458acbfb54eb927cdd7e49221ca3d638a330dc08a6fbba0448ed3f2a7997",
+     "title": "International Coffee Hour, IEW edition at The Bistro at Popp Martin Student Union",
+     "rank": 15,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "09679f7a6567567fd6317ce0b17620e7448de706399eb86db712f9327ea4fd54",
+     "title": "John Proctor Is the Villain at Blumenthal Performing Arts Center",
+     "rank": 15,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "61a56e7e3b5c72d8f361921e5f896c9f192f57e7201ad82d98126d2578929742",
+     "title": "Mental Health First Aid (Student) at Online",
+     "rank": 15,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "a02e8f66eb392d9b61e5a61ab03c0326353901f9e0240f2e4ba0f2ac6bed65bf",
+     "title": "Holiday Concert",
+     "rank": 16,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "c5de447ffaac115a96123ced763d46125fefabf6801505f7b7bccd234cfff076",
+     "title": "John Proctor Is the Villain at Blumenthal Performing Arts Center",
+     "rank": 16,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "61e8079560d21448c6f37569586fbd06760992450c6f0a6614cd75eded9abce6",
+     "title": "Mental Health First Aid (Student) at Online",
+     "rank": 16,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "6c1d8bd210eacada2f048491de91db401ce4401a93189cc9cad9cde2521f37c0",
+     "title": "International Coffee Hour at Popp Martin Student Union",
+     "rank": 17,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "b5d396aa1a55437b745fde16a38a7b81f921a817d8ee1bd70ed2a95c10bb3fc0",
+     "title": "Jamil Niner Student Pantry: Tuesday Volunteer Shift | 2:30pm \u2013 5:15pm",
+     "rank": 17,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "34e4c11fc71910c9881c11df65993b9d9c5034359e2a7af5298fbec67726cb89",
+     "title": "John Proctor Is the Villain at Blumenthal Performing Arts Center",
+     "rank": 17,
+     "rating": 2
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "3db28d3a22c03db0e545ebf693f16568381c554043bc13b65dc7584ad47f5f27",
+     "title": "Charlotte Women's Basketball vs. Wofford at Halton Arena",
+     "rank": 18,
      "rating": 2
     }
    ]

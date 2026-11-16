@@ -21,6 +21,14 @@ def pooled(events, profiles, excluded, k=12, seed=0, rankers=RANKERS):
 if __name__ == '__main__':
     events = json.load(open('data/d3_events.json')); profiles = json.load(open('data/profiles.json'))
     rows = pooled(events, profiles, test_ids())
-    with open('data/judgments_sheet.csv', 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, ['profile_id', 'event_id', 'title', 'description', 'rating']); w.writeheader(); w.writerows(rows)
-    print(len(rows), 'rows ->data/judgments_sheet.csv')
+    prior = {}  # optional: --carry old_judgments.csv reuses ratings of (profile, event) pairs already judged
+    if '--carry' in sys.argv:
+        from evaluate_recs import load_ratings
+        prior = load_ratings(sys.argv[sys.argv.index('--carry') + 1])
+    carry = [dict(r, rating=prior[r['profile_id']][r['event_id']]) for r in rows if r['event_id'] in prior.get(r['profile_id'], {})]
+    todo = [r for r in rows if r['event_id'] not in prior.get(r['profile_id'], {})]
+    cols = ['profile_id', 'event_id', 'title', 'description', 'rating']
+    for name, data in (('data/judgments_carry.csv', carry), ('data/judgments_sheet.csv', todo)):
+        with open(name, 'w', newline='', encoding='utf-8') as f:
+            w = csv.DictWriter(f, cols); w.writeheader(); w.writerows(data)
+    print(len(carry), 'carried over;', len(todo), 'to rate ->data/judgments_sheet.csv')

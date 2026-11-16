@@ -13,7 +13,8 @@ def parse_dt(s):
 def as_of_dt(profile):
     return parse_dt(profile['as_of'] + ('T00:00:00+00:00' if len(profile['as_of']) == 10 else ''))
 
-def test_ids(path='data/active_split_manifest.json'):
+def test_ids(path='data/split_manifest.json'):
+    """Frozen test-split IDs for BOTH sources (Niner Engage + Campus Events); never used for ranking evaluation."""
     return {r['event_id'] for r in json.load(open(path)) if r['split'] == 'test'}
 
 def build_pool(events, as_of, excluded, days=14):
@@ -30,6 +31,7 @@ import re
 def group_key(e):
     """Recurring-event group: normalized title (digits/parentheticals removed)."""
     t = re.sub(r'\([^)]*\)', ' ', (e.get('title') or '').lower())
+    t = re.sub(r'\s+at\s+.*$', '', t)  # Campus Events titles carry an ' at <venue>' suffix
     return ' '.join(re.sub(r'[^a-z ]+', ' ', t).split())
 
 def event_text(e): return ' '.join(str(e.get(f) or '') for f in TEXT_FIELDS)

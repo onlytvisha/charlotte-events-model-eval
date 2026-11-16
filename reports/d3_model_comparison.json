@@ -14,33 +14,33 @@
  "summary": {
   "baseline": {
    "ndcg@10": {
-    "mean": 0.11575115283900377,
-    "lo": 0.04778423067733951,
-    "hi": 0.19871489123939948,
+    "mean": 0.06267014981040091,
+    "lo": 0.01922778808720725,
+    "hi": 0.11446112160705434,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.09292583237806351,
-    "lo": 0.04284662097162097,
-    "hi": 0.1505010982494177,
+    "mean": 0.06048818792358207,
+    "lo": 0.022981082375478926,
+    "hi": 0.10488675399142532,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.18333333333333335,
-    "lo": 0.075,
-    "hi": 0.31666666666666665,
+    "mean": 0.15,
+    "lo": 0.05833333333333333,
+    "hi": 0.25833333333333336,
     "n": 12
    },
    "category_coverage": {
-    "mean": 3.0,
-    "lo": 3.0,
-    "hi": 3.0,
+    "mean": 6.0,
+    "lo": 6.0,
+    "hi": 6.0,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 5.0,
-    "lo": 5.0,
-    "hi": 5.0,
+    "mean": 4.0,
+    "lo": 4.0,
+    "hi": 4.0,
     "n": 12
    },
    "dominant_org_share": {
@@ -52,107 +52,103 @@
   },
   "logreg": {
    "ndcg@10": {
-    "mean": 0.5018711427104532,
-    "lo": 0.3935300938315512,
-    "hi": 0.6083374656518181,
+    "mean": 0.3924470503159603,
+    "lo": 0.28091527922308296,
+    "hi": 0.5220686254752777,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.3907397583241404,
-    "lo": 0.2860753815348352,
-    "hi": 0.4833740904325142,
+    "mean": 0.2752046747770519,
+    "lo": 0.2047254301370205,
+    "hi": 0.3641545507863025,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.5416666666666666,
-    "lo": 0.4083333333333334,
-    "hi": 0.6666666666666666,
+    "mean": 0.5666666666666668,
+    "lo": 0.45,
+    "hi": 0.6750000000000002,
     "n": 12
    },
    "category_coverage": {
-    "mean": 7.583333333333333,
-    "lo": 6.666666666666667,
-    "hi": 8.416666666666666,
+    "mean": 4.916666666666667,
+    "lo": 3.9166666666666665,
+    "hi": 5.916666666666667,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 8.75,
-    "lo": 7.75,
-    "hi": 9.583333333333334,
+    "mean": 3.5833333333333335,
+    "lo": 2.8333333333333335,
+    "hi": 4.333333333333333,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.20833333333333337,
-    "lo": 0.1416666666666667,
-    "hi": 0.2916666666666667,
+    "mean": 0.6916666666666665,
+    "lo": 0.6166666666666666,
+    "hi": 0.7668749999999989,
     "n": 12
    }
   },
   "tree": {
    "ndcg@10": {
-    "mean": 0.5401095768619321,
-    "lo": 0.46571248435631524,
-    "hi": 0.6100285523030491,
+    "mean": 0.361046382026423,
+    "lo": 0.2691714036715635,
+    "hi": 0.4826752210526569,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.4178587272122742,
-    "lo": 0.3348420854547499,
-    "hi": 0.4989752631323354,
+    "mean": 0.26572115466417734,
+    "lo": 0.19833168807921828,
+    "hi": 0.3580666697591056,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.6083333333333334,
-    "lo": 0.48333333333333334,
-    "hi": 0.7166666666666667,
+    "mean": 0.55,
+    "lo": 0.44166666666666665,
+    "hi": 0.6666666666666666,
     "n": 12
    },
    "category_coverage": {
-    "mean": 7.333333333333333,
+    "mean": 6.416666666666667,
     "lo": 4.833333333333333,
-    "hi": 9.916666666666666,
+    "hi": 7.916666666666667,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 7.5,
-    "lo": 5.333333333333333,
-    "hi": 9.333333333333334,
+    "mean": 3.6666666666666665,
+    "lo": 2.9166666666666665,
+    "hi": 4.416666666666667,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.3416666666666666,
-    "lo": 0.15000000000000002,
-    "hi": 0.5583333333333333,
+    "mean": 0.7083333333333334,
+    "lo": 0.6416666666666667,
+    "hi": 0.7666666666666667,
     "n": 12
    }
   }
  },
  "selection_rule": "simplest model whose mean nDCG@10 is within 1 SE of the best",
  "selection": {
-  "best": "tree",
-  "best_mean": 0.5401095768619321,
-  "se": 0.03880559175246442,
-  "threshold": 0.5013039851094676,
+  "best": "logreg",
+  "best_mean": 0.3924470503159603,
+  "se": 0.06452150219476462,
+  "threshold": 0.3279255481211957,
   "adequate": [
    "logreg",
    "tree"
   ],
   "selected": "logreg",
   "means": {
-   "baseline": 0.11575115283900377,
-   "logreg": 0.5018711427104532,
-   "tree": 0.5401095768619321
+   "baseline": 0.06267014981040091,
+   "logreg": 0.3924470503159603,
+   "tree": 0.361046382026423
   }
  },
  "chosen_hyperparameters": {
   "logreg": [
-   "{\"C\": 0.1}",
-   "{\"C\": 0.01}",
    "{\"C\": 1.0}"
   ],
   "tree": [
-   "{\"d\": 3, \"m\": 20}",
-   "{\"d\": 3, \"m\": 5}",
    "{\"d\": 2, \"m\": 5}",
    "{\"d\": 5, \"m\": 5}"
   ]
@@ -160,41 +156,41 @@
  "chronological_window2": {
   "logreg": {
    "ndcg@10": {
-    "mean": 0.4126087562487178,
-    "lo": 0.2765064558192406,
-    "hi": 0.5550266467936681,
+    "mean": 0.3963677118961024,
+    "lo": 0.26157653801749814,
+    "hi": 0.5311199162941903,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.44440673442866424,
-    "lo": 0.3018577259120023,
-    "hi": 0.5834812001067483,
+    "mean": 0.32342643059554826,
+    "lo": 0.23459740729042203,
+    "hi": 0.41499560743586483,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.3666666666666667,
-    "lo": 0.25833333333333336,
-    "hi": 0.4666666666666668,
+    "mean": 0.38333333333333336,
+    "lo": 0.2833333333333333,
+    "hi": 0.4749999999999999,
     "n": 12
    }
   },
   "tree": {
    "ndcg@10": {
-    "mean": 0.4488003521216824,
-    "lo": 0.2807069860654,
-    "hi": 0.6126958897048443,
+    "mean": 0.30350100445979683,
+    "lo": 0.1697527865983961,
+    "hi": 0.4400773556228335,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.43234417061171454,
-    "lo": 0.28341600529100525,
-    "hi": 0.576867080896686,
+    "mean": 0.2324663150030797,
+    "lo": 0.13631299069258626,
+    "hi": 0.32866057502546464,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.4166666666666666,
-    "lo": 0.26666666666666666,
-    "hi": 0.5666666666666667,
+    "mean": 0.2833333333333333,
+    "lo": 0.17500000000000002,
+    "hi": 0.39999999999999997,
     "n": 12
    }
   }
@@ -203,267 +199,267 @@
   "per_profile": {
    "logreg": {
     "p01": {
-     "ndcg@10": 0.5571641864179232,
-     "recall@10": 0.5454545454545454,
-     "precision@10": 0.6,
-     "category_coverage": 8,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.29308070480675114,
+     "recall@10": 0.28,
+     "precision@10": 0.7,
+     "category_coverage": 4,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p02": {
-     "ndcg@10": 0.8525551888058234,
-     "recall@10": 0.6153846153846154,
-     "precision@10": 0.8,
-     "category_coverage": 6,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.7935840677649109,
+     "recall@10": 0.3333333333333333,
+     "precision@10": 0.7,
+     "category_coverage": 4,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p03": {
-     "ndcg@10": 0.4224403690551689,
-     "recall@10": 0.5,
+     "ndcg@10": 0.36216453673307814,
+     "recall@10": 0.34782608695652173,
      "precision@10": 0.8,
-     "category_coverage": 8,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "category_coverage": 6,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     },
     "p04": {
-     "ndcg@10": 0.4003056681186047,
-     "recall@10": 0.17391304347826086,
-     "precision@10": 0.4,
+     "ndcg@10": 0.40673945789677135,
+     "recall@10": 0.2413793103448276,
+     "precision@10": 0.7,
      "category_coverage": 6,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "organizer_coverage": 1,
+     "dominant_org_share": 1.0
     },
     "p05": {
-     "ndcg@10": 0.7547937694445372,
-     "recall@10": 0.38095238095238093,
-     "precision@10": 0.8,
-     "category_coverage": 10,
-     "organizer_coverage": 8,
-     "dominant_org_share": 0.3
+     "ndcg@10": 0.47448881712534446,
+     "recall@10": 0.25,
+     "precision@10": 0.6,
+     "category_coverage": 7,
+     "organizer_coverage": 6,
+     "dominant_org_share": 0.5
     },
     "p06": {
-     "ndcg@10": 0.26728782821908087,
+     "ndcg@10": 0.18642773917353658,
      "recall@10": 0.15789473684210525,
      "precision@10": 0.3,
      "category_coverage": 5,
-     "organizer_coverage": 6,
-     "dominant_org_share": 0.4
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.6
     },
     "p07": {
-     "ndcg@10": 0.2365716036664848,
-     "recall@10": 0.1875,
-     "precision@10": 0.3,
-     "category_coverage": 8,
-     "organizer_coverage": 8,
-     "dominant_org_share": 0.3
+     "ndcg@10": 0.36439572023399686,
+     "recall@10": 0.22727272727272727,
+     "precision@10": 0.5,
+     "category_coverage": 5,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p08": {
-     "ndcg@10": 0.5805971187338221,
-     "recall@10": 0.5,
+     "ndcg@10": 0.3153437382193006,
+     "recall@10": 0.2777777777777778,
      "precision@10": 0.5,
-     "category_coverage": 9,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "category_coverage": 5,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p09": {
-     "ndcg@10": 0.7170533846952881,
-     "recall@10": 0.5,
-     "precision@10": 0.2,
-     "category_coverage": 9,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.8611375561264454,
+     "recall@10": 0.6923076923076923,
+     "precision@10": 0.9,
+     "category_coverage": 2,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p10": {
-     "ndcg@10": 0.488909067687166,
-     "recall@10": 0.4444444444444444,
-     "precision@10": 0.8,
-     "category_coverage": 8,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.298555373306818,
+     "recall@10": 0.1724137931034483,
+     "precision@10": 0.5,
+     "category_coverage": 3,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p11": {
-     "ndcg@10": 0.20641593223508903,
-     "recall@10": 0.1,
-     "precision@10": 0.3,
-     "category_coverage": 5,
-     "organizer_coverage": 5,
+     "ndcg@10": 0.16815228646891087,
+     "recall@10": 0.08695652173913043,
+     "precision@10": 0.2,
+     "category_coverage": 3,
+     "organizer_coverage": 2,
      "dominant_org_share": 0.5
     },
     "p12": {
-     "ndcg@10": 0.5383595954464502,
-     "recall@10": 0.5833333333333334,
-     "precision@10": 0.7,
+     "ndcg@10": 0.18529460593565877,
+     "recall@10": 0.23529411764705882,
+     "precision@10": 0.4,
      "category_coverage": 9,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     }
    },
    "tree": {
     "p01": {
-     "ndcg@10": 0.5643129133744911,
-     "recall@10": 0.6363636363636364,
-     "precision@10": 0.7,
+     "ndcg@10": 0.37016571962026457,
+     "recall@10": 0.24,
+     "precision@10": 0.6,
      "category_coverage": 7,
-     "organizer_coverage": 8,
-     "dominant_org_share": 0.2
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p02": {
-     "ndcg@10": 0.5960512656401598,
-     "recall@10": 0.38461538461538464,
-     "precision@10": 0.5,
-     "category_coverage": 6,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.20438612271095846,
+     "recall@10": 0.14285714285714285,
+     "precision@10": 0.3,
+     "category_coverage": 7,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p03": {
-     "ndcg@10": 0.530639113241232,
-     "recall@10": 0.5625,
-     "precision@10": 0.9,
-     "category_coverage": 7,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.35122599378024405,
+     "recall@10": 0.34782608695652173,
+     "precision@10": 0.8,
+     "category_coverage": 8,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     },
     "p04": {
-     "ndcg@10": 0.26689792213662733,
-     "recall@10": 0.2608695652173913,
+     "ndcg@10": 0.38556743181567404,
+     "recall@10": 0.20689655172413793,
      "precision@10": 0.6,
-     "category_coverage": 2,
+     "category_coverage": 9,
      "organizer_coverage": 2,
      "dominant_org_share": 0.9
     },
     "p05": {
-     "ndcg@10": 0.4408688366170197,
-     "recall@10": 0.3333333333333333,
-     "precision@10": 0.7,
-     "category_coverage": 13,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.4001490568102179,
+     "recall@10": 0.375,
+     "precision@10": 0.9,
+     "category_coverage": 8,
+     "organizer_coverage": 6,
+     "dominant_org_share": 0.5
     },
     "p06": {
-     "ndcg@10": 0.5090782892422615,
-     "recall@10": 0.3157894736842105,
-     "precision@10": 0.6,
-     "category_coverage": 1,
-     "organizer_coverage": 1,
-     "dominant_org_share": 1.0
+     "ndcg@10": 0.138734948507551,
+     "recall@10": 0.15789473684210525,
+     "precision@10": 0.3,
+     "category_coverage": 3,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.7
     },
     "p07": {
-     "ndcg@10": 0.5023607887421134,
-     "recall@10": 0.1875,
-     "precision@10": 0.3,
-     "category_coverage": 16,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.27025290641826366,
+     "recall@10": 0.18181818181818182,
+     "precision@10": 0.4,
+     "category_coverage": 5,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p08": {
-     "ndcg@10": 0.5098779105881943,
-     "recall@10": 0.6,
-     "precision@10": 0.6,
-     "category_coverage": 8,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.36750073091901014,
+     "recall@10": 0.2777777777777778,
+     "precision@10": 0.5,
+     "category_coverage": 5,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     },
     "p09": {
-     "ndcg@10": 0.7170533846952881,
-     "recall@10": 0.5,
-     "precision@10": 0.2,
-     "category_coverage": 10,
-     "organizer_coverage": 9,
-     "dominant_org_share": 0.2
+     "ndcg@10": 0.9216017310213247,
+     "recall@10": 0.6923076923076923,
+     "precision@10": 0.9,
+     "category_coverage": 2,
+     "organizer_coverage": 3,
+     "dominant_org_share": 0.8
     },
     "p10": {
-     "ndcg@10": 0.616318580647038,
-     "recall@10": 0.5,
-     "precision@10": 0.9,
-     "category_coverage": 7,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.29209730394578687,
+     "recall@10": 0.1724137931034483,
+     "precision@10": 0.5,
+     "category_coverage": 11,
+     "organizer_coverage": 4,
+     "dominant_org_share": 0.7
     },
     "p11": {
-     "ndcg@10": 0.7859162856301584,
-     "recall@10": 0.23333333333333334,
-     "precision@10": 0.7,
-     "category_coverage": 1,
-     "organizer_coverage": 1,
-     "dominant_org_share": 1.0
+     "ndcg@10": 0.4634464183177907,
+     "recall@10": 0.21739130434782608,
+     "precision@10": 0.5,
+     "category_coverage": 3,
+     "organizer_coverage": 2,
+     "dominant_org_share": 0.8
     },
     "p12": {
-     "ndcg@10": 0.4419396317886011,
-     "recall@10": 0.5,
-     "precision@10": 0.6,
-     "category_coverage": 10,
-     "organizer_coverage": 10,
-     "dominant_org_share": 0.1
+     "ndcg@10": 0.16742822044999014,
+     "recall@10": 0.17647058823529413,
+     "precision@10": 0.3,
+     "category_coverage": 9,
+     "organizer_coverage": 5,
+     "dominant_org_share": 0.6
     }
    }
   },
   "per_topic": {
    "logreg": {
     "academic": {
-     "mean_ndcg@10": 0.29133647619092484,
+     "mean_ndcg@10": 0.25377316117973964,
      "n_profiles": 3
     },
     "arts": {
-     "mean_ndcg@10": 0.6571706343286986,
+     "mean_ndcg@10": 0.4314074706399567,
      "n_profiles": 3
     },
     "career": {
-     "mean_ndcg@10": 0.482126307407898,
+     "mean_ndcg@10": 0.3327918453367802,
      "n_profiles": 3
     },
     "community": {
-     "mean_ndcg@10": 0.495682686555511,
+     "mean_ndcg@10": 0.41944226867967066,
      "n_profiles": 2
     },
     "culture": {
-     "mean_ndcg@10": 0.5445633962361541,
+     "mean_ndcg@10": 0.5789898939994539,
      "n_profiles": 2
     },
     "sports": {
-     "mean_ndcg@10": 0.5697468768752285,
+     "mean_ndcg@10": 0.6116510464297618,
      "n_profiles": 2
     },
     "technology": {
-     "mean_ndcg@10": 0.45427053669448475,
+     "mean_ndcg@10": 0.22160101663864884,
      "n_profiles": 3
     },
     "wellness": {
-     "mean_ndcg@10": 0.5553810687289574,
+     "mean_ndcg@10": 0.3784029090550802,
      "n_profiles": 3
     }
    },
    "tree": {
     "academic": {
-     "mean_ndcg@10": 0.520630832336349,
+     "mean_ndcg@10": 0.3292495995470053,
      "n_profiles": 3
     },
     "arts": {
-     "mean_ndcg@10": 0.5159562693389851,
+     "mean_ndcg@10": 0.24643835802665293,
      "n_profiles": 3
     },
     "career": {
-     "mean_ndcg@10": 0.48250980538605215,
+     "mean_ndcg@10": 0.3492768184605752,
      "n_profiles": 3
     },
     "community": {
-     "mean_ndcg@10": 0.47161481267956656,
+     "mean_ndcg@10": 0.3352009816142408,
      "n_profiles": 2
     },
     "culture": {
-     "mean_ndcg@10": 0.5492060271911365,
+     "mean_ndcg@10": 0.23731951456461106,
      "n_profiles": 2
     },
     "sports": {
-     "mean_ndcg@10": 0.6238462489682601,
+     "mean_ndcg@10": 0.6364138624007843,
      "n_profiles": 2
     },
     "technology": {
-     "mean_ndcg@10": 0.5051102781351179,
+     "mean_ndcg@10": 0.22544296285926857,
      "n_profiles": 3
     },
     "wellness": {
-     "mean_ndcg@10": 0.5292755101684299,
+     "mean_ndcg@10": 0.3478241181787496,
      "n_profiles": 3
     }
    }
@@ -471,65 +467,58 @@
   "false_positives": {
    "logreg": [
     {
-     "profile_id": "p01",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
+     "profile_id": "p08",
+     "event_id": "7f476c1f124e798cdb68d9140bf9c8b217fad90bdd829ee2ec1b66c64099680a",
+     "title": "Jazz Ensemble and Combos at Robinson Hall",
      "rank": 1,
      "rating": 0
     },
     {
-     "profile_id": "p04",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
+     "profile_id": "p11",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
-     "profile_id": "p06",
-     "event_id": "4bd20e61bcf87920cd0e6bfab63a22c0abfd344774c6a0db76be04524938276f",
-     "title": "Green Dot Bystander Training",
+     "profile_id": "p12",
+     "event_id": "7f476c1f124e798cdb68d9140bf9c8b217fad90bdd829ee2ec1b66c64099680a",
+     "title": "Jazz Ensemble and Combos at Robinson Hall",
      "rank": 1,
      "rating": 0
     },
     {
-     "profile_id": "p07",
-     "event_id": "9bf78ee5b90ec18f1174240e1026facbc519bc2cce8e4d87744fef91a1ff318a",
-     "title": "The Final Jam",
-     "rank": 1,
+     "profile_id": "p05",
+     "event_id": "06236ca491ad57d3d8cda7368606da6dad72866d7fad0aba54d1be6725975997",
+     "title": "The Final Jam at McKnight Hall",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p09",
+     "event_id": "bc3e92b6d1926753258314ea74ea1699a6f6b49f941e5e0d1965830b750845d8",
+     "title": "Charlotte Women's Basketball vs. Wofford at Halton Arena",
+     "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p10",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 1,
-     "rating": 0
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "4bd20e61bcf87920cd0e6bfab63a22c0abfd344774c6a0db76be04524938276f",
-     "title": "Green Dot Bystander Training",
-     "rank": 1,
-     "rating": 0
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "05c7bc5a765de88edf252d24932389ba8a346538fa1ea6fa48ca39ecf2a85041",
-     "title": "Rhythm",
-     "rank": 2,
-     "rating": 0
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "e61b2d2340f0342154f39feb8b7c408c1989d35e7c4f549fe8fda548db540c68",
-     "title": "Question, Persuade, Refer Training (Student)",
+     "event_id": "32f6d901d4b92647b7947eb33eac3101ebe981800683f4c6d607cbfc7458b5e7",
+     "title": "Career Meet Up: Imposter Syndrome & Interviewing",
      "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p11",
-     "event_id": "05c7bc5a765de88edf252d24932389ba8a346538fa1ea6fa48ca39ecf2a85041",
-     "title": "Rhythm",
+     "event_id": "d207561eabea17e3e31a18e2e7fc33bc5894c26ce5052c80a586b5c19311be96",
+     "title": "Final Examinations for Saturday classes at UNC Charlotte Academic Calendar",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p12",
+     "event_id": "034051ce97a791f46d11ac7ac1cc72fa5f971620f284a13567826f7ce170e740",
+     "title": "Codachrome A Cappella's 2026 Fall Showcase at TBD",
      "rank": 2,
      "rating": 0
     },
@@ -542,214 +531,221 @@
     },
     {
      "profile_id": "p06",
-     "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
-     "title": "LWJ- Bible Study",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "abf164e57cde407fd72f48c65060da85985f7a86ebc24cc179a1ec23b9fee16d",
-     "title": "Baddies: Conflict Management Workshop",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p11",
-     "event_id": "2d3442577a1e34b52257a53d835587049793425fe63a82a24c5fc9ddddfbf4b8",
-     "title": "LWJ- Bible Study",
+     "event_id": "9c723056d36a58cffdac076f8630e2ea6099709ac8a01697efd9c750832b8df0",
+     "title": "Digital Accessibility \u2018Fix-It Clinic\u2019",
      "rank": 3,
      "rating": 0
     },
     {
-     "profile_id": "p03",
-     "event_id": "c9b778aa9be9dd339d7741d279591f980d93ae62f56a862be531058143b66d4c",
-     "title": "Financial Wellness: Your Money Matters",
+     "profile_id": "p01",
+     "event_id": "22ed399065885629c147157d3bcf7522a4acb43b0383bd632cce1a3c8580f56b",
+     "title": "Movie: \"Project Hail Mary\" at Popp Martin Student Union",
      "rank": 4,
      "rating": 0
     },
     {
      "profile_id": "p04",
-     "event_id": "05c7bc5a765de88edf252d24932389ba8a346538fa1ea6fa48ca39ecf2a85041",
-     "title": "Rhythm",
+     "event_id": "22ed399065885629c147157d3bcf7522a4acb43b0383bd632cce1a3c8580f56b",
+     "title": "Movie: \"Project Hail Mary\" at Popp Martin Student Union",
      "rank": 4,
      "rating": 0
     },
     {
-     "profile_id": "p09",
-     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
-     "title": "Masked Singer",
+     "profile_id": "p06",
+     "event_id": "d207561eabea17e3e31a18e2e7fc33bc5894c26ce5052c80a586b5c19311be96",
+     "title": "Final Examinations for Saturday classes at UNC Charlotte Academic Calendar",
+     "rank": 4,
+     "rating": 0
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "7c52b1c83925b43db65b500b54b9c917df78575fe1f7f4483717971421c6ba7d",
+     "title": "Symphonic Band & Wind Ensemble at Robinson Hall",
      "rank": 4,
      "rating": 0
     },
     {
      "profile_id": "p10",
-     "event_id": "b176f9beadc684ce771f56d741d2b21b577c741d8ea7a63a107f2a2072367e16",
-     "title": "BYO Self-Care Bags",
-     "rank": 4,
-     "rating": 0
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "209c7b935f627062f68d4a9181702e391c5880906f05bfb7c6c2e69cedbd7874",
-     "title": "LWJ- Foundations",
+     "event_id": "22ed399065885629c147157d3bcf7522a4acb43b0383bd632cce1a3c8580f56b",
+     "title": "Movie: \"Project Hail Mary\" at Popp Martin Student Union",
      "rank": 4,
      "rating": 0
     },
     {
      "profile_id": "p12",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
+     "event_id": "7c52b1c83925b43db65b500b54b9c917df78575fe1f7f4483717971421c6ba7d",
+     "title": "Symphonic Band & Wind Ensemble at Robinson Hall",
      "rank": 4,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "05c7bc5a765de88edf252d24932389ba8a346538fa1ea6fa48ca39ecf2a85041",
+     "title": "Rhythm",
+     "rank": 5,
+     "rating": 0
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "06236ca491ad57d3d8cda7368606da6dad72866d7fad0aba54d1be6725975997",
+     "title": "The Final Jam at McKnight Hall",
+     "rank": 5,
+     "rating": 0
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "19e3e7ef27ef2a031bbd23438def3ec35a52f1328c072bc7bf6e83edecfac501",
+     "title": "Popp Into Student Involvement at Popp Martin Student Union Room 210",
+     "rank": 5,
      "rating": 0
     }
    ],
    "tree": [
     {
-     "profile_id": "p01",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
+     "profile_id": "p02",
+     "event_id": "3ee602cd8e00f3d6732c8bc576c9ba1b5d70dc303ff60d86aee059f576d1d042",
+     "title": "Folding Peace: Origami Crane Workshop & the Story of Sadako at Popp Martin Student Union Lobby",
      "rank": 1,
      "rating": 0
     },
     {
      "profile_id": "p04",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
      "rating": 0
     },
     {
-     "profile_id": "p05",
-     "event_id": "3cccdfbddc8ec53910aa1b46fc040aab35d492247dd53d6472fcf84410e7af99",
-     "title": "Annual MSA Banquet",
+     "profile_id": "p06",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
      "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "6e7acc94e6353f6ed8e400038e738e21811393cc3b68f64fb68abe4f8e2f6a33",
+     "title": "Question, Persuade, Refer Training (Student)",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "54869e55a85500ba47a6bb42ddaabccb586733c96e1e1077c53dea434953470c",
+     "title": "Last day to submit doctoral dissertations for December 2026 graduation at UNC Charlotte Academic Calendar",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p12",
+     "event_id": "4ef22d28341feb2898449f8890e64207daf5147cfa9357dbd0b08e547d6ea9e9",
+     "title": "Education Abroad x College of Engineering Workshop at Smith 229",
+     "rank": 1,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "844d50221af33c1c09bd9503b3cd3b632ddb65f67b7b15056f67e3dea1c30396",
+     "title": "TEDxUNC Charlotte Salon at Popp Martin Student Union",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p07",
+     "event_id": "da3e8941272c26efb60485526b651dac3b6ec52ef88feaa749778f7aca6b216d",
+     "title": "Question, Persuade, Refer Training (Student) at Online",
+     "rank": 2,
      "rating": 0
     },
     {
      "profile_id": "p10",
-     "event_id": "3b15bd34f4f0d6f2d08fe9abaa32b00b1ce8a34be9ae4a8365b3f88eb33d751b",
-     "title": "Project Hail Mary",
-     "rank": 1,
+     "event_id": "55081e520499281462d638f766ed5fbd1f8f08fb3b56e2fef94a7a9e8225624c",
+     "title": "Career Meet Up: Resume Writing Basics",
+     "rank": 2,
+     "rating": 0
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "e14127b7e7cd545c72a40c316d9cb2898a2e286893859fa71849b4790f554321",
+     "title": "Japanese Bedtime Stories: Translation and Cultural Exchange at CHHS 294",
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "9c723056d36a58cffdac076f8630e2ea6099709ac8a01697efd9c750832b8df0",
+     "title": "Digital Accessibility \u2018Fix-It Clinic\u2019",
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p06",
+     "event_id": "9c723056d36a58cffdac076f8630e2ea6099709ac8a01697efd9c750832b8df0",
+     "title": "Digital Accessibility \u2018Fix-It Clinic\u2019",
+     "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p07",
      "event_id": "e61b2d2340f0342154f39feb8b7c408c1989d35e7c4f549fe8fda548db540c68",
      "title": "Question, Persuade, Refer Training (Student)",
-     "rank": 2,
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "439cda3c2f2f3f8804bdec6b8b65b77924a2c2b21dfbbd523fa5ae43d6e1732e",
+     "title": "Feel Better Fast: Managing Emotions at Student Union 267",
+     "rank": 3,
+     "rating": 0
+    },
+    {
+     "profile_id": "p11",
+     "event_id": "9c723056d36a58cffdac076f8630e2ea6099709ac8a01697efd9c750832b8df0",
+     "title": "Digital Accessibility \u2018Fix-It Clinic\u2019",
+     "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p12",
      "event_id": "ce95b7a4f8cf2969200c384695290f8fe80b74aa02f0c0ca7f5623011b494136",
      "title": "UTD | General Body Meeting",
-     "rank": 2,
+     "rank": 3,
      "rating": 0
     },
     {
      "profile_id": "p08",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "e76a6b74bd6cb976b92c0ec88c2ae69522c394b31b74961a3e88b5a4efd31567",
-     "title": "Spiderman Brand New Day",
-     "rank": 3,
-     "rating": 0
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
-     "rank": 4,
-     "rating": 0
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "9bf78ee5b90ec18f1174240e1026facbc519bc2cce8e4d87744fef91a1ff318a",
-     "title": "The Final Jam",
-     "rank": 4,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "cac0dff7c4be05cca025738e00a14f9b48c00fc66f79f51c7a5bae8f1151c10d",
-     "title": "Pitch This - Global Entrepreneurship Week Tabling",
+     "event_id": "7f476c1f124e798cdb68d9140bf9c8b217fad90bdd829ee2ec1b66c64099680a",
+     "title": "Jazz Ensemble and Combos at Robinson Hall",
      "rank": 4,
      "rating": 0
     },
     {
      "profile_id": "p12",
-     "event_id": "4193ceaefce8ba82fc3733031c7a76e1fc1a28d2ee30394239616012debfa85a",
-     "title": "Popp Into Student Involvement",
+     "event_id": "034051ce97a791f46d11ac7ac1cc72fa5f971620f284a13567826f7ce170e740",
+     "title": "Codachrome A Cappella's 2026 Fall Showcase at TBD",
      "rank": 4,
      "rating": 0
     },
     {
-     "profile_id": "p07",
-     "event_id": "da5ec8e332beb853cebba9fb00d9e7b0266cfab9ec908d946a0c8b5f7f5947bf",
-     "title": "Flu Vaccine Clinic",
+     "profile_id": "p01",
+     "event_id": "3e7c904be14e3d5316654c919c2d8cb556aa81b7f576d8eae6b618545caed76b",
+     "title": "From Classroom to Career: Exploring the World of HR at UNC Charlotte, Belk College of Business, Friday Building, Room 212",
      "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "7a8fbd8e77a594e1de4507145e5dc1a8d31d3a0ad1d8d5f4e8b5f5a10b7fdc75",
-     "title": "Adopt A Spot",
-     "rank": 5,
-     "rating": 0
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "1aee62b4019cf582d23324d5700412af089607c18f91f37ba470c95b24598900",
-     "title": "49er Foundry Business Shower",
-     "rank": 6,
-     "rating": 0
-    },
-    {
-     "profile_id": "p09",
-     "event_id": "fc35cc2a6c3d4b958f043fe9dd9b4b7dc221bdaa0dc09a18ac28e8f5c6a21d9a",
-     "title": "Qualtrics 102",
-     "rank": 6,
-     "rating": 0
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "b2c7f03414c6892e770141350202f549e1428414a7a19331c7816cf99d1b45b6",
-     "title": "PHYS 2102, MATH 2171 & MATH 2241 Drop In Hours",
-     "rank": 6,
-     "rating": 0
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "18a1601bcfd00aa4cea4b95f295325cd157c364401d5397cf378bbcce66fb479",
-     "title": "Business After Hours: Casino Night",
-     "rank": 7,
      "rating": 0
     },
     {
      "profile_id": "p05",
-     "event_id": "9bf78ee5b90ec18f1174240e1026facbc519bc2cce8e4d87744fef91a1ff318a",
-     "title": "The Final Jam",
-     "rank": 7,
-     "rating": 0
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "b2c7f03414c6892e770141350202f549e1428414a7a19331c7816cf99d1b45b6",
-     "title": "PHYS 2102, MATH 2171 & MATH 2241 Drop In Hours",
-     "rank": 7,
+     "event_id": "da3e8941272c26efb60485526b651dac3b6ec52ef88feaa749778f7aca6b216d",
+     "title": "Question, Persuade, Refer Training (Student) at Online",
+     "rank": 5,
      "rating": 0
     }
    ]
@@ -757,93 +753,65 @@
   "false_negatives": {
    "logreg": [
     {
-     "profile_id": "p03",
-     "event_id": "563acfe2d93f79844502ec5147b8c1bc5af5bec310bf330dfe6841ff30042956",
-     "title": "Charlotte Women's Basketball vs. Wofford",
+     "profile_id": "p04",
+     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
+     "title": "From Classroom to Career: Exploring the World of HR",
      "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "0f422afca132d8eabe007392015c3632994561fd9f71b048005e5b1e72629302",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 10:30am \u2013 12:45pm",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p06",
-     "event_id": "be3e96e28d4776c9d383c965aa910d78475875b8407cd38ebaecd115f5a9ff90",
-     "title": "UCAE Science of Learning Workshop Simulcast",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p08",
-     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
-     "title": "Masked Singer",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "d23b5dbdfb8fa55aefefaff781e1cc9bd7b1b6ea55f60baafb0148b942983dd0",
-     "title": "Giving the Gold",
-     "rank": 13,
-     "rating": 2
-    },
-    {
-     "profile_id": "p07",
-     "event_id": "5be13f78ee1ff7372eb24cf3aa45a88ca99d38a7083ed22574c2552bb1fda889",
-     "title": "Hmong New Year Gala",
-     "rank": 13,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "c77fee5595f629f4915f2b98a12b568b9982fe40ce3a8a5323efe9fdd89df3d9",
-     "title": "Mental Health First Aid (Student)",
-     "rank": 13,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "4279612bd5ed25ef11aeac74c088332c3e6ac79a3376daa31ac499c90e13eb33",
-     "title": "SPAN 1101 & SPAN 1102 Drop In Hours",
-     "rank": 13,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
-     "title": "UCAE Stress Less Workshop Simulcast",
-     "rank": 14,
      "rating": 2
     },
     {
      "profile_id": "p03",
      "event_id": "6614f93b0c18e53ccc564036aa92c259038300559c3504e8b029d4c05af87f32",
      "title": "Wellness Wednesday",
-     "rank": 15,
+     "rank": 12,
      "rating": 2
     },
     {
-     "profile_id": "p10",
-     "event_id": "06b2cae714109da09e555dfb8be0fcabd0b1291d857454bd73595d103ddf74ea",
-     "title": "Mental Health First Aid (Student)",
-     "rank": 15,
+     "profile_id": "p08",
+     "event_id": "a02e8f66eb392d9b61e5a61ab03c0326353901f9e0240f2e4ba0f2ac6bed65bf",
+     "title": "Holiday Concert",
+     "rank": 12,
      "rating": 2
     },
     {
      "profile_id": "p11",
-     "event_id": "8351147742194c1fa5efbe7c7db304620c274cb30c4ad8ed9d9e6b12ba088536",
-     "title": "ECGR 2111, ECGR 2254, ECGR 2181 Drop In Tutoring",
+     "event_id": "382c8f4eafff90d372d2c258a2091bcab0d6d4ddf21a49020791481bb06db888",
+     "title": "PHYS 1102 Drop In Hours",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "367f7c7f30ad71ee4c0d2aad649407bb899b4a21377b9df598233f53f81863e6",
+     "title": "Wellness Wednesday at University Recreation Center",
+     "rank": 13,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "fbc0dc5c5f64c378675c0f26bdad5b359d18836ca5658f90f8347c11db46862e",
+     "title": "Holiday Concert at cone after hours",
+     "rank": 13,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "4571d069fba785fe3514ea9c281f495d0be8f8e5ef70b24711117fa0c29462ae",
+     "title": "CEPA Mundial",
      "rank": 15,
      "rating": 2
     },
     {
-     "profile_id": "p05",
-     "event_id": "3a7109c566f184b277db3a7be4ca7a55559c4167465056a0572260bd2e7f3259",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 2:30pm \u2013 5:15pm",
+     "profile_id": "p07",
+     "event_id": "3f476f5eb395318695e28954b73ea611c6e351984024acb5772ca4534a09f112",
+     "title": "Pi\u00f1atas With The First",
+     "rank": 15,
+     "rating": 2
+    },
+    {
+     "profile_id": "p04",
+     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
+     "title": "Career Game Night",
      "rank": 16,
      "rating": 2
     },
@@ -851,191 +819,219 @@
      "profile_id": "p05",
      "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
      "title": "Reset for The Test",
-     "rank": 17,
+     "rank": 16,
      "rating": 2
     },
     {
-     "profile_id": "p02",
-     "event_id": "f86ef9918cea906bad6f26e7ced4e612c04ccf707f997e9748c44104003ba09a",
-     "title": "Masked Singer",
-     "rank": 18,
+     "profile_id": "p07",
+     "event_id": "5a5024c1f9986cdd5aafdae0de4e5a328176cafb4c1e843d3beaf9b36dd1a095",
+     "title": "Pi\u00f1atas With The First at CHHS 295",
+     "rank": 16,
      "rating": 2
     },
     {
      "profile_id": "p11",
      "event_id": "5686cd52d89fa5ac28e53e02c568a3539f972d7dab474eaf1ece15b5a85d4a64",
      "title": "MATH 1103 & MATH 1241 Drop In Hours",
-     "rank": 19,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "e46690e69298fd6c059e13e9c017264f878a9887e933daa257da4d1f957e4483",
-     "title": "Crisis Assistance Ministry",
-     "rank": 20,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "752ba931b795b0b9532ec2dad4236172585549d3cb118cbe3bbca423001f1eba",
-     "title": "Feel Better Fast: Managing Difficult Thoughts",
-     "rank": 22,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "18a1601bcfd00aa4cea4b95f295325cd157c364401d5397cf378bbcce66fb479",
-     "title": "Business After Hours: Casino Night",
-     "rank": 23,
+     "rank": 16,
      "rating": 2
     },
     {
      "profile_id": "p01",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 24,
-     "rating": 2
-    }
-   ],
-   "tree": [
-    {
-     "profile_id": "p11",
-     "event_id": "4279612bd5ed25ef11aeac74c088332c3e6ac79a3376daa31ac499c90e13eb33",
-     "title": "SPAN 1101 & SPAN 1102 Drop In Hours",
-     "rank": 11,
-     "rating": 2
-    },
-    {
-     "profile_id": "p11",
-     "event_id": "0df5f1932e7de4cfd0091c41655ffd620e6f138ca2f624ccd58730f3415677ec",
-     "title": "MATH 1241, MATH 1242, ITSC 2214, and ITSC 2181 Drop In Hours",
-     "rank": 12,
+     "event_id": "adf1527884d212ce6755705d5539265cbb86b616f75b585f93bb24b516fde0ac",
+     "title": "Scout Motors Summer 2027 Internships Are Now Open!",
+     "rank": 17,
      "rating": 2
     },
     {
      "profile_id": "p04",
-     "event_id": "14dcdc4e442c9a99bde9d18f4f6106f3d9b3b00f4c70af86af3c6144000e1862",
-     "title": "From Classroom to Career: Exploring the World of HR",
-     "rank": 13,
-     "rating": 2
-    },
-    {
-     "profile_id": "p03",
-     "event_id": "6614f93b0c18e53ccc564036aa92c259038300559c3504e8b029d4c05af87f32",
-     "title": "Wellness Wednesday",
-     "rank": 14,
-     "rating": 2
-    },
-    {
-     "profile_id": "p01",
-     "event_id": "3d5403f5594c5e0538c4cb136b174ee239461a96fe640c43500e963e3b2ad1fb",
-     "title": "AI Day: Project Expo",
-     "rank": 16,
-     "rating": 2
-    },
-    {
-     "profile_id": "p10",
-     "event_id": "06b2cae714109da09e555dfb8be0fcabd0b1291d857454bd73595d103ddf74ea",
-     "title": "Mental Health First Aid (Student)",
-     "rank": 16,
-     "rating": 2
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "5be13f78ee1ff7372eb24cf3aa45a88ca99d38a7083ed22574c2552bb1fda889",
-     "title": "Hmong New Year Gala",
+     "event_id": "3e7c904be14e3d5316654c919c2d8cb556aa81b7f576d8eae6b618545caed76b",
+     "title": "From Classroom to Career: Exploring the World of HR at UNC Charlotte, Belk College of Business, Friday Building, Room 212",
      "rank": 17,
      "rating": 2
     },
     {
      "profile_id": "p05",
-     "event_id": "c7e5a190b515914d60cd606680197e521a5e70870ecd9eab5d732e90feb63f7c",
-     "title": "Jamil Niner Student Pantry: Wednesday Volunteer Shift | 10:30am \u2013 12:45pm",
+     "event_id": "3629d2b759c518dd260d78145daa273c2e3ab5549389c2baf2aaf469134a56e0",
+     "title": "Dimensions of Wellness Bingo and DIY Stress Balls Night at Cone 208",
      "rank": 17,
-     "rating": 2
-    },
-    {
-     "profile_id": "p02",
-     "event_id": "a02e8f66eb392d9b61e5a61ab03c0326353901f9e0240f2e4ba0f2ac6bed65bf",
-     "title": "Holiday Concert",
-     "rank": 18,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "5970b26dcc11505b8f06e0c26865aaa619937103534f596ae44a596ecf7f8d00",
-     "title": "Jamil Niner Student Pantry: Wednesday Volunteer Shift | 12:30pm \u2013 3:30pm",
-     "rank": 20,
      "rating": 2
     },
     {
      "profile_id": "p05",
      "event_id": "397669441fa48188ef21606446c9bc1d8ab54bced25d54fad99f0b6d9b337c67",
      "title": "Dimensions of Wellness Bingo and DIY Stress Balls Night",
-     "rank": 22,
+     "rank": 18,
      "rating": 2
     },
     {
-     "profile_id": "p11",
-     "event_id": "382c8f4eafff90d372d2c258a2091bcab0d6d4ddf21a49020791481bb06db888",
-     "title": "PHYS 1102 Drop In Hours",
-     "rank": 22,
+     "profile_id": "p01",
+     "event_id": "036ab1f44192f6ae5243127a042449304c3c71c3dbc3469fd93908f2d74071bd",
+     "title": "Scout Motors Summer Internships Information Session (VIRTUAL)",
+     "rank": 20,
      "rating": 2
     },
     {
-     "profile_id": "p11",
-     "event_id": "5686cd52d89fa5ac28e53e02c568a3539f972d7dab474eaf1ece15b5a85d4a64",
-     "title": "MATH 1103 & MATH 1241 Drop In Hours",
-     "rank": 23,
+     "profile_id": "p02",
+     "event_id": "39df458acbfb54eb927cdd7e49221ca3d638a330dc08a6fbba0448ed3f2a7997",
+     "title": "International Coffee Hour, IEW edition at The Bistro at Popp Martin Student Union",
+     "rank": 20,
      "rating": 2
     },
     {
-     "profile_id": "p04",
-     "event_id": "adf1527884d212ce6755705d5539265cbb86b616f75b585f93bb24b516fde0ac",
-     "title": "Scout Motors Summer 2027 Internships Are Now Open!",
-     "rank": 25,
+     "profile_id": "p02",
+     "event_id": "6c1d8bd210eacada2f048491de91db401ce4401a93189cc9cad9cde2521f37c0",
+     "title": "International Coffee Hour at Popp Martin Student Union",
+     "rank": 21,
      "rating": 2
     },
     {
-     "profile_id": "p06",
-     "event_id": "ba6e1f35040bb6521fb89ed3230d0cef10fc9e7da3d95997359cfba5ffa3959d",
-     "title": "UCAE Study Skills and Test Taking Workshop Simulcast",
-     "rank": 25,
+     "profile_id": "p08",
+     "event_id": "09679f7a6567567fd6317ce0b17620e7448de706399eb86db712f9327ea4fd54",
+     "title": "John Proctor Is the Villain at Blumenthal Performing Arts Center",
+     "rank": 21,
      "rating": 2
-    },
+    }
+   ],
+   "tree": [
     {
-     "profile_id": "p04",
-     "event_id": "ba6e1f35040bb6521fb89ed3230d0cef10fc9e7da3d95997359cfba5ffa3959d",
-     "title": "UCAE Study Skills and Test Taking Workshop Simulcast",
-     "rank": 28,
-     "rating": 2
-    },
-    {
-     "profile_id": "p05",
-     "event_id": "0f422afca132d8eabe007392015c3632994561fd9f71b048005e5b1e72629302",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 10:30am \u2013 12:45pm",
-     "rank": 28,
+     "profile_id": "p02",
+     "event_id": "cbd4def9a9429c55bc1c664dedd3b80243bcecdecc2525f879d80f0540350e20",
+     "title": "Codachrome A Cappella's 2026 Fall Showcase",
+     "rank": 11,
      "rating": 2
     },
     {
      "profile_id": "p05",
-     "event_id": "3a7109c566f184b277db3a7be4ca7a55559c4167465056a0572260bd2e7f3259",
-     "title": "Jamil Niner Student Pantry: Thursday Volunteer Shift | 2:30pm \u2013 5:15pm",
-     "rank": 29,
+     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
+     "title": "UCAE Stress Less Workshop Simulcast",
+     "rank": 11,
      "rating": 2
     },
     {
-     "profile_id": "p07",
-     "event_id": "5be13f78ee1ff7372eb24cf3aa45a88ca99d38a7083ed22574c2552bb1fda889",
-     "title": "Hmong New Year Gala",
-     "rank": 31,
+     "profile_id": "p10",
+     "event_id": "2139c07af5cfa52805233658d5254e7a97cce95c39679d686fcf9118a144ad18",
+     "title": "UCAE Stress Less Workshop Simulcast",
+     "rank": 11,
      "rating": 2
     },
     {
-     "profile_id": "p06",
+     "profile_id": "p04",
+     "event_id": "ab615793511689f43439eb0f6d31ebd8a7416bfd031493a6c98b7f79762c7085",
+     "title": "PAL Session: CHEM 1203 (CHHS 294)",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "8ecd079f4390ef4f5fb5c20c1591f66dae6851176723580656d1b25cb2743b76",
+     "title": "UCAE Stress Less Workshop Simulcast at Colvard North 2006",
+     "rank": 12,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "fc1533137dd3ed76b903dec61f1820b01fbd93c432a2c2b8894ef1307ef25cb0",
+     "title": "Reset for The Test",
+     "rank": 13,
+     "rating": 2
+    },
+    {
+     "profile_id": "p01",
      "event_id": "35885728121e9bdc03ca54b10d5aa540b4135941c2348f18e386a52c29d936b2",
      "title": "ColorStack: LeetCode Session",
-     "rank": 32,
+     "rank": 14,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "367f7c7f30ad71ee4c0d2aad649407bb899b4a21377b9df598233f53f81863e6",
+     "title": "Wellness Wednesday at University Recreation Center",
+     "rank": 14,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "6614f93b0c18e53ccc564036aa92c259038300559c3504e8b029d4c05af87f32",
+     "title": "Wellness Wednesday",
+     "rank": 15,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "eb26755e95c7730651eef35a3a3ea780a76ac3b3c1a61410ee2dbb9a8a7efc9c",
+     "title": "Traditions at Robinson Hall 118",
+     "rank": 19,
+     "rating": 2
+    },
+    {
+     "profile_id": "p02",
+     "event_id": "3d7d6f3fe43adc934d0143e95498cfb161028a44b7ec2fb00d5edd75a6be6d1b",
+     "title": "Traditional Chinese Painting Workshop at CHHS 159",
+     "rank": 20,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "61a56e7e3b5c72d8f361921e5f896c9f192f57e7201ad82d98126d2578929742",
+     "title": "Mental Health First Aid (Student) at Online",
+     "rank": 21,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "4571d069fba785fe3514ea9c281f495d0be8f8e5ef70b24711117fa0c29462ae",
+     "title": "CEPA Mundial",
+     "rank": 22,
+     "rating": 2
+    },
+    {
+     "profile_id": "p05",
+     "event_id": "b5d396aa1a55437b745fde16a38a7b81f921a817d8ee1bd70ed2a95c10bb3fc0",
+     "title": "Jamil Niner Student Pantry: Tuesday Volunteer Shift | 2:30pm \u2013 5:15pm",
+     "rank": 22,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "c77fee5595f629f4915f2b98a12b568b9982fe40ce3a8a5323efe9fdd89df3d9",
+     "title": "Mental Health First Aid (Student)",
+     "rank": 22,
+     "rating": 2
+    },
+    {
+     "profile_id": "p03",
+     "event_id": "563acfe2d93f79844502ec5147b8c1bc5af5bec310bf330dfe6841ff30042956",
+     "title": "Charlotte Women's Basketball vs. Wofford",
+     "rank": 24,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "09679f7a6567567fd6317ce0b17620e7448de706399eb86db712f9327ea4fd54",
+     "title": "John Proctor Is the Villain at Blumenthal Performing Arts Center",
+     "rank": 24,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "f2799757fccecd9e78c4e68de8b7a9b1910f7607216a8755b74004ef30ece953",
+     "title": "Mental Health First Aid (Student)",
+     "rank": 24,
+     "rating": 2
+    },
+    {
+     "profile_id": "p10",
+     "event_id": "7d021bdb997232a0fb7de9db599e70fd728d0e31ceef26aece1f8b8b154941a5",
+     "title": "Career Game Night",
+     "rank": 25,
+     "rating": 2
+    },
+    {
+     "profile_id": "p08",
+     "event_id": "a02e8f66eb392d9b61e5a61ab03c0326353901f9e0240f2e4ba0f2ac6bed65bf",
+     "title": "Holiday Concert",
+     "rank": 27,
      "rating": 2
     }
    ]
@@ -1044,77 +1040,77 @@
  "grouped": {
   "logreg": {
    "ndcg@10": {
-    "mean": 0.5117229616656068,
-    "lo": 0.40195391190905533,
-    "hi": 0.617978351184559,
+    "mean": 0.43705979607882567,
+    "lo": 0.3444155033084669,
+    "hi": 0.5335741428743661,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.41757760857993054,
-    "lo": 0.3152561051833014,
-    "hi": 0.5069421523286655,
+    "mean": 0.37489405537889525,
+    "lo": 0.30520153933912514,
+    "hi": 0.4488490838117197,
     "n": 12
    },
    "precision@10": {
     "mean": 0.5416666666666666,
-    "lo": 0.4083333333333334,
-    "hi": 0.6666666666666666,
+    "lo": 0.43333333333333335,
+    "hi": 0.65,
     "n": 12
    },
    "category_coverage": {
-    "mean": 7.583333333333333,
-    "lo": 6.666666666666667,
-    "hi": 8.416666666666666,
+    "mean": 5.833333333333333,
+    "lo": 4.75,
+    "hi": 6.916666666666667,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 8.75,
-    "lo": 7.75,
-    "hi": 9.583333333333334,
+    "mean": 3.9166666666666665,
+    "lo": 3.0,
+    "hi": 4.916666666666667,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.20833333333333337,
-    "lo": 0.1416666666666667,
-    "hi": 0.2916666666666667,
+    "mean": 0.6499999999999999,
+    "lo": 0.5583333333333333,
+    "hi": 0.7416666666666667,
     "n": 12
    }
   },
   "tree": {
    "ndcg@10": {
-    "mean": 0.5608003034812256,
-    "lo": 0.47978904070614964,
-    "hi": 0.648364084337165,
+    "mean": 0.39654359926410515,
+    "lo": 0.31382980305840313,
+    "hi": 0.4794449686010998,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.4693805678325802,
-    "lo": 0.3845920712092345,
-    "hi": 0.5477838417065389,
+    "mean": 0.3562710093745563,
+    "lo": 0.27785793922181934,
+    "hi": 0.43722400224044944,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.6250000000000001,
-    "lo": 0.49979166666666663,
-    "hi": 0.7416666666666667,
+    "mean": 0.5,
+    "lo": 0.39999999999999997,
+    "hi": 0.6,
     "n": 12
    },
    "category_coverage": {
-    "mean": 7.333333333333333,
-    "lo": 4.833333333333333,
-    "hi": 9.916666666666666,
+    "mean": 6.25,
+    "lo": 5.0,
+    "hi": 7.5,
     "n": 12
    },
    "organizer_coverage": {
-    "mean": 7.583333333333333,
-    "lo": 5.333333333333333,
-    "hi": 9.5,
+    "mean": 3.6666666666666665,
+    "lo": 3.0,
+    "hi": 4.335416666666655,
     "n": 12
    },
    "dominant_org_share": {
-    "mean": 0.3333333333333333,
-    "lo": 0.13333333333333336,
-    "hi": 0.5583333333333332,
+    "mean": 0.7083333333333334,
+    "lo": 0.6499999999999999,
+    "hi": 0.7666666666666666,
     "n": 12
    }
   }
@@ -1122,81 +1118,81 @@
  "chronological_window2_rankers": {
   "baseline": {
    "ndcg@10": {
-    "mean": 0.23857534969869276,
-    "lo": 0.10835343712529209,
-    "hi": 0.3724586019385876,
+    "mean": 0.15609455892858748,
+    "lo": 0.0457282304933885,
+    "hi": 0.2830665459798894,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.2477751090689687,
-    "lo": 0.11198003689780006,
-    "hi": 0.4092140072403229,
+    "mean": 0.14057188046158633,
+    "lo": 0.04507604323780794,
+    "hi": 0.24973507565419314,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.2833333333333334,
-    "lo": 0.10833333333333334,
-    "hi": 0.47520833333333223,
+    "mean": 0.15833333333333335,
+    "lo": 0.05833333333333333,
+    "hi": 0.275,
     "n": 12
    }
   },
   "current": {
    "ndcg@10": {
-    "mean": 0.43487889320207224,
-    "lo": 0.31867577405824116,
-    "hi": 0.5650148893949365,
+    "mean": 0.4140615830889441,
+    "lo": 0.3118141378100388,
+    "hi": 0.5088800270945291,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.4818725053374176,
-    "lo": 0.3561877059547015,
-    "hi": 0.610011835143414,
+    "mean": 0.37810052828435176,
+    "lo": 0.3132777083006863,
+    "hi": 0.44307028551513833,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.39166666666666666,
-    "lo": 0.2916666666666667,
-    "hi": 0.48333333333333334,
+    "mean": 0.4750000000000001,
+    "lo": 0.36666666666666664,
+    "hi": 0.5833333333333334,
     "n": 12
    }
   },
   "tfidf": {
    "ndcg@10": {
-    "mean": 0.4392761551006202,
-    "lo": 0.288584993441915,
-    "hi": 0.5796142894170426,
+    "mean": 0.43285454140798096,
+    "lo": 0.3134884931102877,
+    "hi": 0.5463311643816862,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.3992411584516848,
-    "lo": 0.2691138871484266,
-    "hi": 0.5330052561960454,
+    "mean": 0.3231650498194616,
+    "lo": 0.2585507867676985,
+    "hi": 0.39399916311221445,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.4083333333333334,
-    "lo": 0.25,
-    "hi": 0.5833333333333333,
+    "mean": 0.425,
+    "lo": 0.3000000000000001,
+    "hi": 0.5583333333333333,
     "n": 12
    }
   },
   "embed": {
    "ndcg@10": {
-    "mean": 0.6445035302131333,
-    "lo": 0.4567017059543173,
-    "hi": 0.8187028416583115,
+    "mean": 0.7253136402704046,
+    "lo": 0.6126790643849233,
+    "hi": 0.8337268616235161,
     "n": 12
    },
    "recall@10": {
-    "mean": 0.5632280933816022,
-    "lo": 0.39659891917293233,
-    "hi": 0.7172067901234568,
+    "mean": 0.5834037558302264,
+    "lo": 0.5068781558855088,
+    "hi": 0.6728999105469694,
     "n": 12
    },
    "precision@10": {
-    "mean": 0.55,
-    "lo": 0.35833333333333334,
-    "hi": 0.7335416666666655,
+    "mean": 0.725,
+    "lo": 0.5833333333333334,
+    "hi": 0.8583333333333333,
     "n": 12
    }
   }

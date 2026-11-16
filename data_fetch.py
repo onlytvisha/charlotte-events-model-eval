@@ -3,14 +3,19 @@ import json
 from pathlib import Path
 from storage import Supabase
 
+CAMPUS = 'https://campusevents.charlotte.edu/calendar/1.xml'
+
 def local(out='data/d3_events.json'):
-    """No Supabase: fetch the allowlisted RSS, normalize with pipeline.py, tag with the keyword baseline."""
+    """No Supabase: fetch both feeds (Niner Engage RSS + Campus Events calendar), normalize with pipeline.py, tag with the keyword baseline.
+    The production allowlist in pipeline.SOURCES is untouched; campusevents is added only inside this process (source id kept as in the frozen split manifest)."""
+    import pipeline
     from pipeline import collect, prepare
     from tagging import baseline
-    _, rows = prepare(collect('ninerengage'), 'ninerengage')
+    pipeline.SOURCES['campusevents'] = CAMPUS
     events = []
-    for _, e in rows:
-        if e: e['tags'] = baseline(e); events.append(e)
+    for src in ('ninerengage', 'campusevents'):
+        _, rows = prepare(collect(src), src)
+        events += [dict(e, tags=baseline(e)) for _, e in rows if e]
     Path(out).write_text(json.dumps(events, indent=1, default=str))
     print(f'{len(events)} events -> {out} (local)')
 

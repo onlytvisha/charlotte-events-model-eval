@@ -82,3 +82,15 @@ def test_model_tuning_excludes_heldout_profile():
     assert len(seen) == len(PROFILES)
     for held, train in zip([p['profile_id'] for p in PROFILES], seen):
         assert held not in train
+
+
+def test_frozen_test_ids_cover_both_sources_and_exclude_them_from_pool():
+    ids = rk.test_ids()  # default: the two-source frozen split_manifest.json
+    assert len(ids) == 179
+    ev_ = [dict(mk(i, 2), id=i_, source_id=s) for i, (i_, s) in enumerate([(sorted(ids)[0], 'campusevents'), (sorted(ids)[1], 'ninerengage'), ('x1', 'campusevents')])]
+    pool = rk.build_pool(ev_, T0, ids)
+    assert {e['id'] for e in pool} == {'x1'}
+
+
+def test_group_key_strips_campus_venue_suffix():
+    assert rk.group_key({'title': 'Holiday Concert at Cone After Hours'}) == rk.group_key({'title': 'Holiday Concert'})

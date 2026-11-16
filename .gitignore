@@ -16,3 +16,9 @@ data/*.sql
 data/*.jsonl
 
 !data/active_split_manifest.json
+
+# D3 evaluation inputs (no reviewer names; public event text) are committed
+!data/d3_events.json
+!data/profiles.json
+!data/profiles.template.json
+~$*

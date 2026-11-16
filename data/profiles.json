@@ -1,0 +1,119 @@
+[
+ {
+  "profile_id": "p01",
+  "interests": [
+   "technology",
+   "career"
+  ],
+  "free_text": "coding internships and robotics",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p02",
+  "interests": [
+   "arts",
+   "culture"
+  ],
+  "free_text": "live music and international food",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p03",
+  "interests": [
+   "sports",
+   "wellness"
+  ],
+  "free_text": "pickup soccer, yoga",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p04",
+  "interests": [
+   "career",
+   "academic"
+  ],
+  "free_text": "resume help and study groups",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p05",
+  "interests": [
+   "community",
+   "wellness"
+  ],
+  "free_text": "volunteering, stress relief",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p06",
+  "interests": [
+   "technology",
+   "academic"
+  ],
+  "free_text": "",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p07",
+  "interests": [
+   "culture",
+   "community"
+  ],
+  "free_text": "cultural celebrations",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p08",
+  "interests": [
+   "arts"
+  ],
+  "free_text": "theatre and dance performances",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p09",
+  "interests": [
+   "sports"
+  ],
+  "free_text": "",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p10",
+  "interests": [
+   "wellness",
+   "career"
+  ],
+  "free_text": "mental health, networking",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p11",
+  "interests": [
+   "academic"
+  ],
+  "free_text": "tutoring",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ },
+ {
+  "profile_id": "p12",
+  "interests": [
+   "technology",
+   "arts"
+  ],
+  "free_text": "game design",
+  "saved_ids": [],
+  "as_of": "2026-11-15"
+ }
+]
